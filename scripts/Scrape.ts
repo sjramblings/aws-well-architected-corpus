@@ -67,6 +67,14 @@ function sha256Hex(text: string): string {
   return createHash("sha256").update(text).digest("hex");
 }
 
+// Emits a GitHub Actions workflow annotation only when running inside CI.
+// Outside GitHub Actions it is a no-op so local runs stay quiet.
+export function ghAnnotate(level: "warning" | "error", message: string): void {
+  if (process.env.GITHUB_ACTIONS === "true") {
+    console.log(`::${level}::${message}`);
+  }
+}
+
 function contentHash(bp: BestPractice): string {
   const canonical = [
     bp.id,
