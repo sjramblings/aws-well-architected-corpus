@@ -1,0 +1,24 @@
+{
+  "name": "aws-well-architected-corpus",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Machine-readable mirror of the AWS Well-Architected Framework — per-best-practice markdown + WA Tool custom-lens JSON, refreshed daily.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "scrape": "bun scripts/Scrape.ts",
+    "build:lens": "bun scripts/BuildLens.ts",
+    "build:bundle": "bun scripts/BuildBundle.ts",
+    "release": "bun scripts/BuildRelease.ts",
+    "verify": "bun scripts/Verify.ts"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "node-html-parser": "^7.0.1",
+    "turndown": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/turndown": "^5.0.5",
+    "bun-types": "^1.3.14"
+  }
+}

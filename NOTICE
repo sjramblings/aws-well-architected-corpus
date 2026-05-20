@@ -1,0 +1,29 @@
+aws-well-architected-corpus
+===========================
+
+This repository is an UNOFFICIAL, machine-readable mirror of the
+AWS Well-Architected Framework.
+
+Source content
+--------------
+The best-practice text, implementation guidance, and related material under
+`data/` is derived from the AWS Well-Architected Framework documentation
+published by Amazon Web Services at:
+
+    https://docs.aws.amazon.com/wellarchitected/latest/framework/
+
+That content is © Amazon Web Services, Inc. or its affiliates. All rights to
+the underlying documentation remain with AWS. It is reproduced here in a
+derived (Markdown / JSON) form to enable programmatic ingestion, under the
+terms of the AWS documentation. AWS does not endorse and is not affiliated
+with this repository.
+
+If you are AWS and want this mirror altered or removed, please open an issue.
+
+Tooling
+-------
+The generator scripts under `scripts/` are original work and are licensed
+under the MIT License (see LICENSE).
+
+Use the official AWS documentation as the authoritative source. This mirror
+is provided as-is, with no warranty, for convenience of automated tooling.
