@@ -16,6 +16,8 @@ It is the AWS analogue of [`AustralianCyberSecurityCentre/ism-oscal`](https://gi
 | `data/aws-well-architected.json` | A single bundled JSON of every best practice, for machine ingest |
 | `data/_meta.json` | Generation metadata + content hash |
 
+The improvement-plan blurbs inside `aws-well-architected-lens.json` are size-capped to keep the lens within WA Tool's import limit and are non-authoritative — the full text is retained in `data/best-practices/*.md` and `data/aws-well-architected.json`.
+
 ## Consuming it
 
 **Pin a release** (recommended) — every release is tagged `vYYYY.MM.DD`:
