@@ -98,3 +98,17 @@ export function pillarForSlug(slug: string): Pillar {
   }
   return pillar;
 }
+
+// Shared best-practice-count expectations, consumed by structure-drift guards.
+export const EXPECTED_BP_COUNT = 306;
+
+export const EXPECTED_BP_COUNT_BY_PREFIX: Readonly<Record<string, number>> = {
+  OPS: 67,
+  SEC: 63,
+  REL: 65,
+  PERF: 32,
+  COST: 50,
+  SUS: 29,
+};
+
+export const BP_COUNT_LOWER_GUARD = 280;
