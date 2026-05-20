@@ -9,13 +9,23 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:6fc5f839bc9a7a15c99942be7b9ff2cb2457085bfaceef580f5b29e5ba52d812'
+content_hash: 'sha256:efe569a45d06d4cb8775df962ff1162a4e39d2d6f631ab8927b6ce4a2c533655'
 ---
 # COST04-BP05 — Enforce data retention policies
 
 ## Statement
 
 Define data retention policies on supported resources to handle object deletion per your organizations’ requirements. Identify and delete unnecessary or orphaned resources and objects that are no longer required.
+
+## Implementation Guidance
+
+Use data retention policies and lifecycle policies to reduce the associated costs of the decommissioning process and storage costs for the identified resources. Defining your data retention policies and lifecycle policies to perform automated storage class migration and deletion will reduce the overall storage costs during its lifetime. You can use Amazon Data Lifecycle Manager to automate the creation and deletion of Amazon Elastic Block Store snapshots and Amazon EBS-backed Amazon Machine Images (AMIs), and use Amazon S3 Intelligent-Tiering or an Amazon S3 lifecycle configuration to manage the lifecycle of your Amazon S3 objects. You can also implement custom code using the [API or SDK](https://aws.amazon.com/tools/) to create lifecycle policies and policy rules for objects to be deleted automatically.
+
+**Implementation steps**
+
+-   **Use Amazon Data Lifecycle Manager:** Use lifecycle policies on Amazon Data Lifecycle Manager to automate deletion of Amazon EBS snapshots and Amazon EBS-backed AMIs.
+    
+-   **Set up lifecycle configuration on a bucket:** Use Amazon S3 lifecycle configuration on a bucket to define actions for Amazon S3 to take during an object's lifecycle, as well as deletion at the end of the object's lifecycle, based on your business requirements.
 
 ## Resources
 

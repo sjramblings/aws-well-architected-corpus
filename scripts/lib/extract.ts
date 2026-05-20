@@ -55,6 +55,11 @@ type MarkerLocation = {
   directChildIndex: number;
 };
 
+type ImplementationGuidanceResult = {
+  guidance: string;
+  foundOrphanBody: boolean;
+};
+
 function normalizeText(value: string): string {
   return value.replace(/\s+/g, " ").trim();
 }
@@ -313,6 +318,59 @@ function sectionFromMarker(
   return markdownFromHtml(htmlBetween(content, marker.directChildIndex, actualEnd, marker.marker));
 }
 
+function resolveImplementationGuidance(
+  content: HTMLElement,
+  implementationIndex: number | undefined,
+  stepsHeadingIndex: number | undefined,
+  resourcesIndex: number | undefined,
+  desiredMarker: MarkerLocation | undefined,
+  commonMarker: MarkerLocation | undefined,
+  benefitsMarker: MarkerLocation | undefined,
+  riskMarker: MarkerLocation | undefined,
+): ImplementationGuidanceResult {
+  const resourcesEnd = resourcesIndex ?? content.childNodes.length;
+
+  if (implementationIndex !== undefined) {
+    return {
+      guidance: markdownFromHtml(htmlBetween(content, implementationIndex + 1, resourcesEnd)),
+      foundOrphanBody: false,
+    };
+  }
+
+  if (stepsHeadingIndex !== undefined) {
+    const precedingSectionIndex = firstDefinedIndex(
+      riskMarker?.directChildIndex,
+      benefitsMarker?.directChildIndex,
+      commonMarker?.directChildIndex,
+      desiredMarker?.directChildIndex,
+    );
+    const leadingHtml =
+      precedingSectionIndex === undefined ? "" : htmlBetween(content, precedingSectionIndex + 1, stepsHeadingIndex);
+    const stepsHtml = htmlBetween(content, stepsHeadingIndex + 1, resourcesEnd);
+    const guidanceHtml = [leadingHtml, stepsHtml].filter((html) => html.trim() !== "").join("\n");
+
+    return {
+      guidance: markdownFromHtml(guidanceHtml),
+      foundOrphanBody: false,
+    };
+  }
+
+  const precedingSectionIndex = firstDefinedIndex(
+    riskMarker?.directChildIndex,
+    benefitsMarker?.directChildIndex,
+    commonMarker?.directChildIndex,
+    desiredMarker?.directChildIndex,
+    0,
+  );
+  const orphanBody =
+    precedingSectionIndex === undefined ? "" : markdownFromHtml(htmlBetween(content, precedingSectionIndex + 1, resourcesEnd));
+
+  return {
+    guidance: orphanBody,
+    foundOrphanBody: orphanBody !== "",
+  };
+}
+
 export function extractBestPractice(html: string, ctx: ExtractContext): BestPractice {
   const root = parse(html);
   const h1 = root.querySelector("h1");
@@ -338,12 +396,28 @@ export function extractBestPractice(html: string, ctx: ExtractContext): BestPrac
   const benefitsMarker = findMarker(content, MARKERS.benefits);
   const riskMarker = findMarker(content, MARKERS.risk);
   const implementationIndex = findHeadingIndex(content, "Implementation guidance");
+  const stepsHeadingIndex = findHeadingIndex(content, "Implementation steps");
   const resourcesIndex = findHeadingIndex(content, "Resources");
+  const implementationGuidanceResult = resolveImplementationGuidance(
+    content,
+    implementationIndex,
+    stepsHeadingIndex,
+    resourcesIndex,
+    desiredMarker,
+    commonMarker,
+    benefitsMarker,
+    riskMarker,
+  );
 
   if (riskMarker === undefined) {
     warnings.push(`Missing inline marker: ${MARKERS.risk.label}`);
   }
-  if (implementationIndex === undefined) {
+  if (
+    implementationGuidanceResult.guidance === "" &&
+    implementationIndex === undefined &&
+    stepsHeadingIndex === undefined &&
+    !implementationGuidanceResult.foundOrphanBody
+  ) {
     warnings.push("Missing heading: Implementation guidance");
   }
   if (resourcesIndex === undefined) {
@@ -383,16 +457,7 @@ export function extractBestPractice(html: string, ctx: ExtractContext): BestPrac
     warnings,
   );
 
-  const implementationGuidance =
-    implementationIndex === undefined
-      ? ""
-      : markdownFromHtml(
-          htmlBetween(
-            content,
-            implementationIndex + 1,
-            resourcesIndex === undefined ? content.childNodes.length : resourcesIndex,
-          ),
-        );
+  const implementationGuidance = implementationGuidanceResult.guidance;
   const resources =
     resourcesIndex === undefined
       ? ""
