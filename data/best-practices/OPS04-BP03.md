@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:aa3f93c6d6e36dfb02bfa035c47a5cd1bad81ea4342a7021078a43807e0d7beb'
+content_hash: 'sha256:fd2abf9ade30923bb63410b397c22d5ed355f5de5943bd2dec82116e765ee996'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS04-BP03 — Implement user experience telemetry
 

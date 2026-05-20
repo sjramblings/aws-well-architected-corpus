@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:b208569bd70b6b24d6eed6ffdb2f715e511b1200b319ce5876727fe1b1211488'
+content_hash: 'sha256:eb588877a5b1feaf86f26fce6ef860ecb0fc8680c6441ba33157503738738da0'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS07-BP06 — Create support plans for production workloads
 

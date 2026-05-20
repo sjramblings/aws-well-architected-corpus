@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:30dfe247b85201f9f7baed33c82ce98da0a7d82ec910748a8d3c34141323319f'
+content_hash: 'sha256:41688f5dcb10e3c1f8595c48b15687214223604b9f9fc9dd3090278d91c7fd8e'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF02-BP05 — Scale your compute resources dynamically
 

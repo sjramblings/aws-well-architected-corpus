@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:f6f8ece325c617c6f266c14471f098e9cabb0192fc9787124e877930470f897a'
+content_hash: 'sha256:f2aa1abd814bb9da32807144873d043e6689cfc39b8e9802e6fbf71ab9395212'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST02-BP04 — Implement groups and roles
 

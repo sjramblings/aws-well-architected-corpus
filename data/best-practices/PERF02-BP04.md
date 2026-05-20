@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:173404d1280c4007dd4e0fc6fbcbc504488fb2647505da88e879a0396a77df5a'
+content_hash: 'sha256:0f47da2237362672504202e172ddba271914dae39bcfad7fc4cecc2e8a0e2d1e'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF02-BP04 — Configure and right-size compute resources
 

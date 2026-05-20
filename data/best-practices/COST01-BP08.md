@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:1b6e7fa011cfb27e90bd30e71e14d19bb5b9167841e69ec929ebbc9f7b1ffebb'
+content_hash: 'sha256:4b12d9a5aa1ee14ee39d2c86c2232a6efc1961cd9ff84786d5a118d8ae925d63'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST01-BP08 — Create a cost-aware culture
 

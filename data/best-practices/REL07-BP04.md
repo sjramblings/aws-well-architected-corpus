@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:26eb07386cf9297d24cc52883a62017321220fb84a451b4200d078befdb7fd92'
+content_hash: 'sha256:489b924142e649832696ec421fb267bbd8440085d2075b182214cf51c5fd1425'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL07-BP04 — Load test your workload
 

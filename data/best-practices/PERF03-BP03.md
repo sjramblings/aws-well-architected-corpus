@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:71408211536a99bb88628f5885116fbab1f7c0c6a027df7347e6471bded66be2'
+content_hash: 'sha256:56f7647c3c1f7641506e08f1fcffc412d454b928499d8bed2e90bde5df735292'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF03-BP03 — Collect and record data store performance metrics
 

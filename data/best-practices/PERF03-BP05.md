@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:971071146912193d0eada68fed8f603c77264611651d67db49fa100f7d9bbcd0'
+content_hash: 'sha256:e74d4ef085590ca1481683085833d14ab9b263f36252d607f116ef62485266f9'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF03-BP05 — Implement data access patterns that utilize caching
 

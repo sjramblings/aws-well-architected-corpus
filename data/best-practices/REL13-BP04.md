@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:ecc5de03a5a1f604744138a68419df0f8d9bf4803fd663beeb802980a69eb6f6'
+content_hash: 'sha256:475f74ccf76b01b39a15cfb7614c508ce2971d935aa56e00ed7925bbde094d9e'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL13-BP04 — Manage configuration drift at the DR site or Region
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:86c66799f286ddc29d9f4e6f1857d4515afe28c43ed0e3d11c8e10eec38144da'
+content_hash: 'sha256:1b6c257f6e96e398eda7edba780634c7e330f040cfab9d0c1ccb9f8776c2a8e3'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS02-BP05 — Mechanisms exist to request additions, changes, and exceptions
 

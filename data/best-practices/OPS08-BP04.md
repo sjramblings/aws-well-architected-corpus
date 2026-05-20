@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:161dc30171039c9371fd91258fd146a8060e3c7f24da9ddc7b2d620df3c632b6'
+content_hash: 'sha256:8eaf18246130d2ecb075efac911ace19fe0e72046c871ddce884a4b1af7605d0'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS08-BP04 — Create actionable alerts
 

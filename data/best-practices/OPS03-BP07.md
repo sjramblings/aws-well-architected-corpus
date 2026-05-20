@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:135ab8e4c6ae8863fd18a5b016fa2e59bc0ac93ab9dfaba0646de23d1cbdcf94'
+content_hash: 'sha256:b8cba62eca4f2aa1a8586f08e117a1cc9e94206d8abf09e4cd6ac994f7d944d8'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS03-BP07 — Resource teams appropriately
 

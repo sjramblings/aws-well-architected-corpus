@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:dd90b65cc0a349dd636d841c05c4a45c861c3f13d50bba022009a6486bfbfc38'
+content_hash: 'sha256:425374bc1655c80e928ee262da7b62ae27a78d13309b0c33d784b1f703757c8f'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC11-BP04 — Conduct code reviews
 

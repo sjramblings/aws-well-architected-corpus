@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:48f81baa44cea23db880f362669e5d846a9d89649e2d135c9f6ee45ec7786f2a'
+content_hash: 'sha256:cfcdd932f3bfe31f698f9798b12ebbf97caf13a8cc92a4ae04c996895f5d2f7a'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS10-BP07 — Automate responses to events
 

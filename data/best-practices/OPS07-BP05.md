@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:7f05af21e145ac394b9ca124da67548187fae7de4f3664e97b425e4eb0090fe0'
+content_hash: 'sha256:1f82023800f2f1d5d0576c4736925ecefbd74bd6c897512c512c29f4546a8e62'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS07-BP05 — Make informed decisions to deploy systems and changes
 

@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:acc291d1c0fd95efdb99d2281e6a937b9f67a69654262b739bcaf5431e0e9d0e'
+content_hash: 'sha256:8f3ff63b6fd8caab3e7359993658fdc7a25118b04eecad6484992f8a39c4d0d1'
+extraction_warnings:
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # SEC06-BP01 — Perform vulnerability management
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:95d203dd9e3dbdfcc01d7f9efd7b378901bb4f028de857e38766138e71ac551d'
+content_hash: 'sha256:a20ad8049f76d84a92ea0791aff5aff871ecb2993c242f09b31e495050d1d6d2'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL07-BP03 — Obtain resources upon detection that more resources are needed for a workload
 

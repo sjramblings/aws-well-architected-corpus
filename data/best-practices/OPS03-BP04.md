@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:fd11353eb496fa724ddc0ede040008052a1c8097f4b835c6b62373c55447ac92'
+content_hash: 'sha256:33df2fa36edf2685c2fceb75f15908d37a99d8af18353ffba349121fe464e24f'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS03-BP04 — Communications are timely, clear, and actionable
 

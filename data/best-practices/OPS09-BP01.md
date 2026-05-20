@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:b492e42c2a5361a10c32a310982b511e9ab0ed6afc1a870ea5c9dae8cf74fc25'
+content_hash: 'sha256:a8d91a10d1e2d0a4d6f6b5a0bf42da7768ddc1c132aa33a2af9832336171c013'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS09-BP01 — Measure operations goals and KPIs with metrics
 

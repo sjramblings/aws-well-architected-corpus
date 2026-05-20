@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:72f67b9a9de73373d4d2e5715eb5cd9b8de5ba76369dd25fcd01fa8166feec8f'
+content_hash: 'sha256:064014a8473d128651429e11d5b3acc98fa7fce44d26372032f874b82e6622ff'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC02-BP04 — Rely on a centralized identity provider
 

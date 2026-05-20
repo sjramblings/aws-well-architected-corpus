@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:6bd9f5c93de410dc317dbbcc507dc762ae6670074cf71e0b6ff4817e3168cae2'
+content_hash: 'sha256:e53ef16c90658e24639777462780a6729e5e9a3cde34962b4b3d112755a63b4b'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL03-BP01 — Choose how to segment your workload
 

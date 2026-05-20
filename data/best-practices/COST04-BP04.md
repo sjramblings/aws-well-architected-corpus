@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:c5fdd69adb1287b5a92c848cae63341969c8810f6f4d1604fc5fcbb34696c67b'
+content_hash: 'sha256:a53a7b6eca120fdfd08709b35fc668927c2c0456e6ab269f850d5681c88fb8c5'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST04-BP04 — Decommission resources automatically
 

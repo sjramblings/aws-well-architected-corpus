@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:eb946aecb625785050da332efe613212829ecf062c0fa24c16058680456c4b40'
+content_hash: 'sha256:3eda955d43165da54a3af0aa62fe1de23632d36e0e28dbe326ce795f05bcf504'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL08-BP02 — Integrate functional testing as part of your deployment
 

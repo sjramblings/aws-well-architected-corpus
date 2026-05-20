@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:efe569a45d06d4cb8775df962ff1162a4e39d2d6f631ab8927b6ce4a2c533655'
+content_hash: 'sha256:2ca48721c39810726484a0a63336d5e8f1770b400b80f56a030d0252ac199669'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST04-BP05 — Enforce data retention policies
 

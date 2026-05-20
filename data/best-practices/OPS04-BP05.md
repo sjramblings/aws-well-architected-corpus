@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:84b94f9bef1b91b78f163aea3c8477469cd50cf5347c16be3c116d374a8f784b'
+content_hash: 'sha256:4f65470a97a0fcb1260e79456b36a02f3b4abd001f6f239780a6897e952a423b'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS04-BP05 — Implement distributed tracing
 

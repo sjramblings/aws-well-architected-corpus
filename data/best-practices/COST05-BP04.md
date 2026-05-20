@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:d693432177564afb5bc64fdb4799fa58bcc06642e885b5abc88584b00c118117'
+content_hash: 'sha256:2ad8ebe08bd78ecb9109a83f027948aea371ba69f8ba2e85fdb893dfc4eaa654'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST05-BP04 — Select software with cost-effective licensing
 

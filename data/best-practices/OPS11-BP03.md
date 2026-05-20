@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:a32daadb73b2018236ffb3f4a08051559670177d93feda08335f43fdb5a1fef0'
+content_hash: 'sha256:7ecffb926deba0947b6f26ce85b565b051fcde2a9da210721da2d472d200c865'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS11-BP03 — Implement feedback loops
 

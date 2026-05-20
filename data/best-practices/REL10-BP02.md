@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:0c618d441b481d770bda6a7859ce7af5a8c3df0b2d695bf32640fc489a674b0f'
+content_hash: 'sha256:8824f59a2f0404bc869ded43c90f82a3e7b94fd907a1bb93086f23989fe144e8'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # REL10-BP02 — Automate recovery for components constrained to a single location
 

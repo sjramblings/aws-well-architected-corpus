@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:3ad8a8326075f2d7e2205ee6c1d9e208303da184ff501d625b6f1c67da1a180b'
+content_hash: 'sha256:dc3cc3cac1d43ac327cbbd3274c7912be130be5ae5a103c02beed2b39014960b'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL06-BP03 — Send notifications (Real-time processing and alarming)
 

@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:9d813a124a059897f8762a904baf9dcbef0cc3bc91d9fb9615eb3a7c7087ca55'
+content_hash: 'sha256:4bb4a2bdfc287c3ba5ef5715510e333c1f92d599320364d2ce2e3e3d9a491fe8'
+extraction_warnings:
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # SEC03-BP09 — Share resources securely with a third party
 

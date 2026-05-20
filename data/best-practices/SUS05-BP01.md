@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:2616e5749a97e131e54297f92511d6e3596dda692d0ecaf44040546dd64587bb'
+content_hash: 'sha256:7a66fdaf3843ff14aa0d77bbb88e616d5eab57209e72bc441f6b3208260563b1'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS05-BP01 — Use the minimum amount of hardware to meet your needs
 

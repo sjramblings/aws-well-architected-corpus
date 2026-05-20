@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:277ee39e66b15e770b684ef3c6b69def112986232c465c7d8e09d6585c443f20'
+content_hash: 'sha256:5de0246add562a0c36b09e839558ab1320d4eaf9aea981589751fc4e149a5cdc'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL09-BP04 — Perform periodic recovery of the data to verify backup integrity and processes
 

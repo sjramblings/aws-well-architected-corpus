@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:9141de468aa19eb17ff0f537dadc050384acb5112b56e269b867c1f25a7d185f'
+content_hash: 'sha256:476e3ae9d4e1428db261be9e748fb1b7a08cc7a5da2e6fa36056d71f20502c26'
+extraction_warnings:
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # SEC08-BP04 — Enforce access control
 

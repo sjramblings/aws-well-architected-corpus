@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:dcd5e5858160a1d62f63e8e853c809e53f3b5b7ed3be0f7f0c8881f32395d481'
+content_hash: 'sha256:6537f96d5e66863363d26c1f1419e50dcc2ffdbb699160fc78e016be021edb99'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL09-BP03 — Perform data backup automatically
 

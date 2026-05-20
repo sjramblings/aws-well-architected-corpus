@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:995bb26ac85db9cae35546815fe6eefe0ee64c7c3eb40be7bcd6bc94ff6ba85b'
+content_hash: 'sha256:b3c619b8c151897b722dc4a8cd7a41d71f77ce077e01343dbf2840de332b3757'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST03-BP03 — Identify cost attribution categories
 

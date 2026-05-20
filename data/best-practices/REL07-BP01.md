@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:d71735dda641db9fcef5794febba8076152a12a06754c9578841601b33c86ba6'
+content_hash: 'sha256:6ddcd1d802cdcb3f2928d5780606917631f67687e684850079b320b17be38453'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL07-BP01 — Use automation when obtaining or scaling resources
 

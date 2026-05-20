@@ -9,7 +9,17 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:6690f02b4e8935d8982b604d57414c555afae1156b1553577629c0b820764b78'
+content_hash: 'sha256:b7bbcb972c7dc0b2ad396a50040aa5e3abe72763475d2a5f79412e50eb7cb7ac'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC10-BP02 — Develop incident management plans
 

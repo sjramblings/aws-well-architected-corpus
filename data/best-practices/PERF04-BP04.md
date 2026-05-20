@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:d1cf8e7046962ced6d87e5721d2d0329aa99b443e7dbb5fe8ff12c5de5362c7a'
+content_hash: 'sha256:90948e3d5f33c99617ed53bd46bde124404acddbd39b21b7faabcdeb22790cb2'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF04-BP04 — Use load balancing to distribute traffic across multiple resources
 

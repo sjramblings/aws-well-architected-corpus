@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:f2fcfdc6d2fb881b2da9080e3a5733055bc0dedfc9eca513a3a3ea3185aad263'
+content_hash: 'sha256:991095dbf70d78933f1fb70ade4b86eeb7e389448011720f2ee10f40abc5a4f9'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS11-BP08 — Document and share lessons learned
 

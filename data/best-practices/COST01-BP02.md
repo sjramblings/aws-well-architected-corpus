@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:5bb6669331280b40e36f36ab40163ee3bdfd7023532f04a55ae5b65fdf32b1fe'
+content_hash: 'sha256:ae17ba218cd0c8a33193e3fd79635bc12937b4a9fb85bf7221cd6c2bd943d708'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST01-BP02 — Establish a partnership between finance and technology
 

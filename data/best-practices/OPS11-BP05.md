@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:b33aee0ba8a8dd5b705d0b428b956dcd890c25db83aa5f7b7496b28c27983ab5'
+content_hash: 'sha256:0ea832c29bc8dd1a19074359f68cfb7095e403608eee61a0b4200c42df1c58c7'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS11-BP05 — Define drivers for improvement
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:8cd5868b4a7b5ae8af779aa9cf60a11cbfd60dd5839f39f298ad631db6907c43'
+content_hash: 'sha256:f98a623759726a465d5c024eeb708e5f00afc4a53623be2d322d4b856410cb56'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL02-BP04 — Prefer hub-and-spoke topologies over many-to-many mesh
 

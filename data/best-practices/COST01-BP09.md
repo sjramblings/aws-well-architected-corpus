@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:5eac744ce9890a47f124e0170470801572eff74e1bfd56985a9894f3e8d337ec'
+content_hash: 'sha256:d129e0dfcab7d00e06435b60ce498952da4fdbd00d62303d42b0b06acc80b13c'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST01-BP09 — Quantify business value from cost optimization
 

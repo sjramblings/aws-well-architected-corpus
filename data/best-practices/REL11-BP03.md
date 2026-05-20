@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:cdb613d8375064980480dd7513c3a1f15098f53458f329397df9fa6b6c30ecb5'
+content_hash: 'sha256:a1fedfe322828692460d814fc5ef903907e50928c53f6ff5b3466a85ca2b1c4c'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL11-BP03 — Automate healing on all layers
 

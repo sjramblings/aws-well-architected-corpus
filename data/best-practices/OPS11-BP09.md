@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:088081f04c8097137d46b8dea8eb306728f8753d61331b062c616e897faaabca'
+content_hash: 'sha256:ab619a3c0e04228e486b91e834c3480e2b3b9ac983a0aff39515244a2d203c29'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS11-BP09 — Allocate time to make improvements
 

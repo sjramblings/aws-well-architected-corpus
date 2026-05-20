@@ -11,7 +11,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:3823a5ee781ccfff538ee300f087bfd01a2d4064c01c5fce4f902e5e435c7e8e'
+content_hash: 'sha256:ad038483697db882e9d590cd738d311f3e97fc637a5f5abb4ec8d8ad9c06fa8b'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS02-BP04 — Optimize geographic placement of workloads based on their networking requirements
 

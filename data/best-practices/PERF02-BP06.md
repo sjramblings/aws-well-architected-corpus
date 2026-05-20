@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:cdf9f4a9bdd67ed7741059017a0ca9f511d4451748c0f3732709b359d0b153b7'
+content_hash: 'sha256:fd77d5978b41381837bbb519c3f99deb96153b16e87635d0df47a2be2d93f306'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF02-BP06 — Use optimized hardware-based compute accelerators
 

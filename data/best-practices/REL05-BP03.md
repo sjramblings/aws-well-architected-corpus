@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:39e19c4574a1412d009218edfb815a5e4c08f8e1e5e84374aa037460c9b67235'
+content_hash: 'sha256:0623f70e606694a6a88ef20507799e3be79e0220714785c8000431116d60c6fb'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL05-BP03 — Control and limit retry calls
 

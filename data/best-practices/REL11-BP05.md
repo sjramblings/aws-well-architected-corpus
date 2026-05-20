@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:fae09dd5bb80fdf3e46551898a779a8389a6a65d97ae8d75a782e1cac58f1e94'
+content_hash: 'sha256:56a19cd1376b4c6064e1b458fab390ea3396a8fa72bd04ef2e3485999324dfc5'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL11-BP05 — Use static stability to prevent bimodal behavior
 

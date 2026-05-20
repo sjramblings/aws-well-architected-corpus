@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:0648a9703da7e93d3ea970acc6a95cfe1bc5017a5d2a30bdb4da384d10bed193'
+content_hash: 'sha256:e19bf0dd1ebb286154761da3295cbe4545cbe1b328e712170aabc2bd4cd289b3'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS04-BP04 — Implement dependency telemetry
 

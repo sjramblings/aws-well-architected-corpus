@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:24a33963421844eeedff3e3dc658320e41cf98d6725e3b19a0a9ac5aa5584262'
+content_hash: 'sha256:34489555d8fe037211f49ca3e51579ecdff83b4856f1fce92133cbd68cbf0099'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS05-BP07 — Implement practices to improve code quality
 

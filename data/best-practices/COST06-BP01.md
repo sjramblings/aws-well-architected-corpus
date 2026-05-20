@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:2a73e8ead60d4ea42404bf875c47d7b5fe24dab9b6586d02833274c3b282b0bf'
+content_hash: 'sha256:da6973dca39a9e92faa81ae4e147c94eb5dba3eef314632ce79b1f5a533fbdb0'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST06-BP01 — Perform cost modeling
 

@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:34431bea55bd99c977dce14e10d3527e8946029dc004058eac596b26740050c3'
+content_hash: 'sha256:4b8701d97e544c6270be9245d9d1228cd39729e6532a3f848272cbce4561a9d1'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS02-BP02 — Align SLAs with sustainability goals
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:746e4c8946c2b9d05b9a1389c91d711eed7ff8cc7747a3984b5486cc6aaa2c32'
+content_hash: 'sha256:1d899279783603237c1fe893ccb75b90555bf0224aeab79bbbf16fb0c66e1a30'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC01-BP02 — Secure account root user and properties
 

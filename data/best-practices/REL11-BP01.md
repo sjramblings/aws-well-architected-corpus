@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:2331f37b44f0790fe4130c04167b86e852b62140e4d2b1eb3b23c676859dc80e'
+content_hash: 'sha256:98583e8faaa0378c46dd0ed49c75ce309aad0558ca81b9a23683a1167788f216'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL11-BP01 — Monitor all components of the workload to detect failures
 

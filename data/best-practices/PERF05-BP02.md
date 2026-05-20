@@ -11,7 +11,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:0e89dcbad8b332e834f4aecbd8ab4d81179c4a7f5652bd90f4c726de36ee8b96'
+content_hash: 'sha256:0633c910d2bd998a90402f6f417cf8a93fc6e489f32e56bbbd523d0b5b425df4'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF05-BP02 — Use monitoring solutions to understand the areas where performance is most critical
 

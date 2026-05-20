@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:9fe095facaf5f43fb349a6f7020793d682407263f4e70331341cc61211d34981'
+content_hash: 'sha256:4e2b9c356824979cd13c3a410db7d00899aead5fa09cbc511b4419fbe7af5217'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF04-BP01 — Understand how networking impacts performance
 

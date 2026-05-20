@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:61b3e2d2ec97725201ce736a38395e567eb69c48133b9e2e42a139f4f857e785'
+content_hash: 'sha256:0bc9cf11980516d66da4ef65dd974ccc4c05bca9e773534bebd6fd84dd882ee6'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF01-BP01 — Learn about and understand available cloud services and features
 

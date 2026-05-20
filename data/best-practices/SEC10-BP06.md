@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:7de48e5b9d73b9e99de006c6788b0a8aa89d881044ed19e09fb08722fdd990e5'
+content_hash: 'sha256:c3cdcf6545c0acd60d6527ded92479593ab7f482b9bdf86600539d427d5f0d6a'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # SEC10-BP06 — Pre-deploy tools
 

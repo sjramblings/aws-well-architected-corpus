@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:3f52507961ddd7be9cd98ac1a8b9000befd40b5bd5ac7af78423581707e8865e'
+content_hash: 'sha256:d38c790e7ab0dbfb0fa4dc055fa07cf4d037b71ca31455abfe5f7f926548a01b'
+extraction_warnings:
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # SEC02-BP06 — Employ user groups and attributes
 

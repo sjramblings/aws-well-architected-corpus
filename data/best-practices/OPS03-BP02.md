@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:a776158b6a92068e8d73cac58fb764916f45ac07fd38287c9e889d22b295ee5d'
+content_hash: 'sha256:816caf97a9a42976d7066eb88ef98ca4e50dc1151a8ea0db0faed99f1c0dfa12'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS03-BP02 — Team members are empowered to take action when outcomes are at risk
 

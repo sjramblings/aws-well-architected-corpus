@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:28bdfcfecda94e1765a85fa4382e3183bf3ffe0b94294398c470d6dad5f659e4'
+content_hash: 'sha256:be1af8c385c80a2f34e4f209253c308d9779c50d6a4159048a87c83d7a848aad'
+extraction_warnings:
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # SEC03-BP04 — Reduce permissions continuously
 

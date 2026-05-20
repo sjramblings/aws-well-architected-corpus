@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:534d25bd0725ded0d1d20516547464d34747e109c4e15ee6453de1664900006d'
+content_hash: 'sha256:1355fec24f4beb82cabf4e714d5bf76070cacf12ae1282a8244a29a474097981'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS01-BP06 — Evaluate tradeoffs while managing benefits and risks
 

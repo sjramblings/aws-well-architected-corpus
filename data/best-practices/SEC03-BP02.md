@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:89907c111a56e60e5692f7e9ca9c4f77118724d3b81150a421d69c82ea92d76f'
+content_hash: 'sha256:4e58dd49eace1a9db012e3fc62dbbf1f8ca6186f7d08ecfa2b0b66040588e01d'
+extraction_warnings:
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # SEC03-BP02 — Grant least privilege access
 

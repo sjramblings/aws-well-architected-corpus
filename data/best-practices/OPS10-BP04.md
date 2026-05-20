@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:d7574cd0d19b60855369e7e88c3307d8a1062f781fb3c60c3179be1a2b678ec3'
+content_hash: 'sha256:820e5e531503488f82cb172975cc26e78cf29ccbeddb83dd0c4be2a3e23da051'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS10-BP04 — Define escalation paths
 

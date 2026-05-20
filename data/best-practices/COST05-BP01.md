@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:ab855edd8e8e6c3a3435670fc2165a57d09dc8a019b7ae194f45b0d4b8837679'
+content_hash: 'sha256:2a53c39bd8db1ff30c87ae3b055591a2ea3d45a89d35acaed2cf363453bfc9ee'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST05-BP01 — Identify organization requirements for cost
 

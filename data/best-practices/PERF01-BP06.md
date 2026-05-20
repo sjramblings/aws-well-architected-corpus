@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:a5605716bff1841fdbeced789433ad4ef16549501715461f6ec8a007cd76fa51'
+content_hash: 'sha256:50ffe58997fe2ebbd19ba5390352b1e8487bc206ddd926904c6571546ee5f470'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF01-BP06 — Use benchmarking to drive architectural decisions
 

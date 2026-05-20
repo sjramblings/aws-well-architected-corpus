@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:07d07ab00c9d578aa97609c4e4fd34cd172b84b72be8988f7cc29c576ca86c74'
+content_hash: 'sha256:7aa948ead6e446a3bff8fc6804132aceaa7262aa13517d36e856d173d3011157'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL05-BP02 — Throttle requests
 

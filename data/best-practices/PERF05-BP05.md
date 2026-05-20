@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:36dd0986b21ed75fedc2654bb97b4bc160e14448555b7a6d6700ded2e33a9b61'
+content_hash: 'sha256:cc3939b7f4c21f5913891aeca719dc42b0bf0e8e10b41bdbea133c2d47db4b78'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF05-BP05 — Use automation to proactively remediate performance-related issues
 

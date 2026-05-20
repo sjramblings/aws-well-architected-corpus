@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:aedd04a77eb25c43b06f91662334fefe721552d7eac62577782887edf45b7c78'
+content_hash: 'sha256:afbfff7a1ad4ad3f09a5c6826df890a7c4ef8ee45daaf3a494b93804cc7dea7e'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF04-BP02 — Evaluate available networking features
 

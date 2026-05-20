@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:440fb84016c30706d74bfe58453986a548893c4528e93e9ba5fd3af544eb644b'
+content_hash: 'sha256:2ad97a02f5623fb558354f0670b2c9c6c226cc32793b0fd1cbbb2bffdc873af3'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS02-BP01 — Resources have identified owners
 

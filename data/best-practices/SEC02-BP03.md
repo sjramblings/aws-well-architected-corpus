@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:5ee04e18d55972c2d9f8ff8dfe6ddb66b49711468e312796bba1b64b15dfb805'
+content_hash: 'sha256:37be563f4e5d7d728d37cb2566c5dd3289bb7fb7b24898c475f49e268d84c826'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC02-BP03 — Store and use secrets securely
 

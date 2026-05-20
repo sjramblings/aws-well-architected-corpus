@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:b83670db139ad4afd704ef865172bfa31f45fe34bed62b7ce8b824c53dab61af'
+content_hash: 'sha256:0ed639e07b56a8021a9b5f2db318aa93f7321bfb930f2e4d6a886e55ba0fa439'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC04-BP01 — Configure service and application logging
 

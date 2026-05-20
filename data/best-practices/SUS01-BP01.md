@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:dab7e08908b8889f8a1a8e44ae67605d0bed3f59825f444b514885e507214af6'
+content_hash: 'sha256:cc9d0995a5eef15bea5af051ccc0a3a7009502036f8f2a768b7f1416575342a4'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS01-BP01 — Choose Region based on both business requirements and sustainability goals
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:f368fd58c4d6392d6f35fd58918d7afe04de2e8366ef383abbee0e9d0d3d9716'
+content_hash: 'sha256:d110c48210f19adab4e965f792c232bbbb3599560b0fd944043971d9449c7506'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS11-BP01 — Have a process for continuous improvement
 

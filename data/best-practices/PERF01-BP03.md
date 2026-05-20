@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:7b532ec05b5d0f8d38a87ebf7a9079eda94110e3f1420f671aaec515af6a6aed'
+content_hash: 'sha256:7a825127b6170849980553287b07842c7d5f336c8c4a3a282e9c3f8721707aea'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF01-BP03 — Factor cost into architectural decisions
 

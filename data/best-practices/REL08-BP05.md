@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:de071cea10f3db0babd1437ffb38ff25885216cb5ae918e9ab0c301fc9e44c49'
+content_hash: 'sha256:58bb41bfd50117056508df511264ab78f2827c999d7ea1215f6c99782cf992e7'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL08-BP05 — Deploy changes with automation
 

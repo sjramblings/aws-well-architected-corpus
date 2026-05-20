@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:148afb8aa300ec40fece12bdea0162b93d8be7868fd94d82e5ac5ff09b0cc8e0'
+content_hash: 'sha256:aa1c3c10da353a536b20b035525f0216269cff80cf34520b7bad72e26a3ce2d7'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST05-BP03 — Perform a thorough analysis of each component
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:17b2b5fc7d76f70cba8e5c27a427f575ecf65c342fee6f45dfce339af5e00b8a'
+content_hash: 'sha256:f0dff5ac4f7856dd4a915fbb31feac92af808ff4bace47fda2b0b6bf3936888a'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC11-BP05 — Centralize services for packages and dependencies
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:8d94116563f2f20d9876470f531a6bb689fca7a94b548e8f5b3422391c48bd72'
+content_hash: 'sha256:9d39876dcd782a738dafe5bb7983d3b6fddf1b791d2f37f7f483c15ef2963e06'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL06-BP06 — Regularly review monitoring scope and metrics
 

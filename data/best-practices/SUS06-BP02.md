@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:e9f479effe160731a94ddaae94a795b5b1d40dd61b9de5c1c7d95da768bb7889'
+content_hash: 'sha256:2068b1b08fe60e2aa03631c17b432bf6a4323425191c9fb0bab93d6bd0a91fcf'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS06-BP02 — Adopt methods that can rapidly introduce sustainability improvements
 

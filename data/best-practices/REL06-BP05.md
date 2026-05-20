@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:bba695af6291968db19185050a5169427f27b2b7fdf38b60c035bc2e3c15eeb6'
+content_hash: 'sha256:7b8403857d4ebe42c6a808f1718ed1bfafa4ee09f92287edc4bc7f79af18e0c9'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # REL06-BP05 — Analyze logs
 

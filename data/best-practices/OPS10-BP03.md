@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:0483d8f0302995879623f8a9a53eca46edd8d71448b95ab833d737056111eadf'
+content_hash: 'sha256:6bb29ce8f486ad9650b001ffac4acc81349ee4c615f61d39477e4563fccf1157'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS10-BP03 — Prioritize operational events based on business impact
 

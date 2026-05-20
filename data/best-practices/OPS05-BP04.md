@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:2e879f1e738b693e2f886322e76a28330d4bff2f43e3f1fdea770668b20d5147'
+content_hash: 'sha256:b5443ae4db6caffa6d13146b2b97a35ae26a09e9700269810b4425fc2cf6b8fc'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS05-BP04 — Use build and deployment management systems
 

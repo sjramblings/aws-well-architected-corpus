@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:f0c9e866a1f14baad6ae66bb4f49e7f465b1089d76fead1f73bdc76ea5059787'
+content_hash: 'sha256:c64b99af2206c594628c38bc60be3dfaddb1da1a10e0dbe3c4f6a66a5a2146b7'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC03-BP05 — Define permission guardrails for your organization
 

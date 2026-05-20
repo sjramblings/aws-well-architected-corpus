@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:6d49e3f104f35e35b17cc175e8e94b6a428159dbfcf9390cac93be1486a88218'
+content_hash: 'sha256:96e9e550db8e7583f391b68ff021db720ab58c006dc06c6b7c2c7674ce670795'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF04-BP05 — Choose network protocols to improve performance
 

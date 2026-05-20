@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:19a7544af7a2a20855de0c3a72e37dcebed3f5625e5c81a34066b65b0ab5ca39'
+content_hash: 'sha256:585872fe51e0f72df6a6603ab8f58bc6e76c4ee66a6180ffa6c08d522e3b5d24'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC01-BP01 — Separate workloads using accounts
 

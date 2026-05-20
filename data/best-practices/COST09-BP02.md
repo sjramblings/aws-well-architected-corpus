@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:cd99b9e8d0c92481afec864bcbf09db4bb37d21050c13891a6373f3724e75400'
+content_hash: 'sha256:672d9982c4da80120097dc532552c2fdfc18ae17cafe37ab1c66af4d963455db'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST09-BP02 — Implement a buffer or throttle to manage demand
 

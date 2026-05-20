@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:a23854d0ada0f3d9ab29f63890aab697ebacf0d8fdd39a98cf4fce9821b0ab52'
+content_hash: 'sha256:b651e64d6432d8c8552fbb85e1a9da49f7698a5025367262fd58a148f1d6a866'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL09-BP02 — Secure and encrypt backups
 

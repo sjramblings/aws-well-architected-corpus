@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:b7cefb95508771c66c7b3bd9cd634e951c051f35710da0f920b098c29c1d032d'
+content_hash: 'sha256:56108fdabd8730a45eb73ba5fd1162b7473120bc005853b992960e241878a785'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC07-BP02 — Apply data protection controls based on data sensitivity
 

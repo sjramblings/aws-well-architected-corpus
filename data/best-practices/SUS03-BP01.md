@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:2233dae8d8d31039d05a95c016d719e4bc76d4ea50008647bba24482b1392000'
+content_hash: 'sha256:4f84773606d672aab4ff753f7e070c63c5483c03ff831ef1b23b2ac9ba2372cd'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS03-BP01 — Optimize software and architecture for asynchronous and scheduled jobs
 

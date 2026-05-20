@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:c1fea71d0e5e385efca12928ff6234b44e072b2b1cb42f386079e77f0753c94b'
+content_hash: 'sha256:9b67ca9d04b207a44a7ba286a5e4e1b158b70c58f090d8afa420b81e2983831f'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL11-BP04 — Rely on the data plane and not the control plane during recovery
 

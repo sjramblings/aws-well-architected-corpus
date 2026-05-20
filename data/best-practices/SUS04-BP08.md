@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:373db8d5b87f21efc8c01d91cc3f93b3c1c7b69e23c76dadd38a9172a7f35511'
+content_hash: 'sha256:6543bcf8892e14512b747e36ea7959ba451c700544fdaf78b0d39a6f3e4314fd'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS04-BP08 — Back up data only when difficult to recreate
 

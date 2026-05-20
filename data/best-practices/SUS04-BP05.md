@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:6a1557275e5f5090d878ddf9a14ec760fec63548f0a9d154e9ad0f8efdc3f449'
+content_hash: 'sha256:97aeb2709b83ed4ff11e5eea50566e3eac7558d532f1301abb9d3bfc23b9b873'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS04-BP05 — Remove unneeded or redundant data
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:fe4addd9cda9d1e9e51b9a5061fef92fdd4d106241c8f559ef55965c1352fa32'
+content_hash: 'sha256:628a984fb816f29b1dba1848be06511e39ef09174175f8e935548aa5e6005667'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC11-BP07 — Regularly assess security properties of the pipelines
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:752f7e6969324fba12835a2345ad0d836c3e649115a415c17026fede54d68133'
+content_hash: 'sha256:2660d368ad51cb57ae971656215ce847a479e78aac5512bccd999c8b89b5207b'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC04-BP03 — Correlate and enrich security alerts
 

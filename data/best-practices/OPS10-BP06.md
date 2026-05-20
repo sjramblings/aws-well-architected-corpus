@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:3e27fe1cd8ed3be94168ac99cfa1986f6c0eb3f449468a416f45544d7d1a06a6'
+content_hash: 'sha256:e895a851dc1cfb85710ebbf669e29ae1fd97f39255b7341121597f2583578504'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS10-BP06 — Communicate status through dashboards
 

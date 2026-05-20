@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:6ff41aa650942cffb4a86e383797f16f42693b114070ebdaee846fc737392d2e'
+content_hash: 'sha256:64a6db9a2a53d8443936215705981859147e9d818f957edb77bbb23a97e5becf'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS03-BP03 — Escalation is encouraged
 

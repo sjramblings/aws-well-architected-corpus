@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:8f4a75cb744314f9c4b5d9eafe62982415d2e5aa614358fd1f8da8825051747a'
+content_hash: 'sha256:7512d6e5764fc72252bfdce15a1ff3f30c1e0202b3df4a37faca550866dfaea3'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL13-BP02 — Use defined recovery strategies to meet the recovery objectives
 

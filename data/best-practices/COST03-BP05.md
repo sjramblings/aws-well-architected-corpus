@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:ade0170386e85168ef370cc83b790aecfe60a348aadb5f5b2dcc58b2b175a5f8'
+content_hash: 'sha256:af4f1c930586f56f44f1ed7ed96545bbb80bb08a7534aa0c46803204bf0f9bc5'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST03-BP05 — Configure billing and cost management tools
 

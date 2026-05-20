@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:2bb854dd18b974db9e4a6e3be7932c2225e6c70b7c7ef8fea00d9c147675c7c6'
+content_hash: 'sha256:eafa5ed1a5edd5de7c6777159cb159663cc38b1dac57c02a960e6a108747306b'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST03-BP04 — Establish organization metrics
 

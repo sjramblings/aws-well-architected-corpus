@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:a015a497eaf0ffd30ff0d61b95ecbe42deee4528b85a80100a846fee17573d3e'
+content_hash: 'sha256:cd8fad1fd21395a5e409ffc5af61f2fc2a77896be564da5e4d7b2e46909055af'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF05-BP03 — Define a process to improve workload performance
 

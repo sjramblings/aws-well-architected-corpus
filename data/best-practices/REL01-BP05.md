@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:388be5d75679672ad2fa40aa7577cd2b6900251c5f45c7d6547594613a8102f0'
+content_hash: 'sha256:e4567a264ad1456ff1c394f795620202541567a654a9b6d50881661e2e2b2060'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL01-BP05 — Automate quota management
 

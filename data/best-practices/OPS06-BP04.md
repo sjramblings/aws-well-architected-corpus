@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:5e863b13157351eb7b3b8b708f122f70dc7796e1024bc5429cc7545bf8cda0b3'
+content_hash: 'sha256:b017811bb5685733827215e37ef4074f13dbbba94694baeb4e83c4a0e471c5fd'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS06-BP04 — Automate testing and rollback
 

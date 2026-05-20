@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:68ba8ff2a02e806c22a7d650391aa6307f9b2df5b3ea8d2a673f70e448cb1f26'
+content_hash: 'sha256:2e1934ede7f043bb51a47e2eecd5590afff8f6f610f3956ebcc16c5d2e6cec0c'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST08-BP01 — Perform data transfer modeling
 

@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:9e5824d7460a7da71e13c1a57c3f7e09d02858e821be6bbe1cb92c18d8c8bc34'
+content_hash: 'sha256:406a9def7dc6dfcc840f869a09f271900fe016f5145362780deb434d53dc5e46'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST04-BP02 — Implement a decommissioning process
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:589f4dcd602604bf835a9493437ff7d40d7f70c8b4969454ea46a0674e8b9007'
+content_hash: 'sha256:7872fbb90c0088ad7d038956ac06fd50aa383d936255c0037623c4d7a9cdf9d7'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC07-BP03 — Automate identification and classification
 

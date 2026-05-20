@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:3c3093a039153bf69137b6128a41c62f91ff1673ee5f088d7f3a414ce491dd71'
+content_hash: 'sha256:da113e4146482d84247b3730907dd667d7b0e4b22c404082ae6ae0f61f2a1d78'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS10-BP05 — Define a customer communication plan for service-impacting events
 

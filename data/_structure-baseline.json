@@ -1,0 +1,3373 @@
+{
+  "schema": 1,
+  "blessed_at": "2026-05-20",
+  "bp_count": 306,
+  "best_practices": {
+    "COST01-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST01-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST01-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST01-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST01-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST01-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST01-BP07": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST01-BP08": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST01-BP09": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST02-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST02-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST02-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST02-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST02-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST02-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST03-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST03-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST03-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST03-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST03-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST03-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST04-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST04-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST04-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST04-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST04-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST05-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST05-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST05-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST05-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST05-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST05-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST06-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST06-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST06-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST06-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST07-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST07-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST07-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST07-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST07-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST08-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST08-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST08-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST09-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST09-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST09-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST10-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST10-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "COST11-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS01-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS01-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS01-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS01-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS01-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS01-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS02-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS02-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS02-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS02-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS02-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS02-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS03-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS03-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS03-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS03-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS03-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS03-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS03-BP07": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS04-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS04-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS04-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS04-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS04-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS05-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS05-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS05-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS05-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS05-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS05-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS05-BP07": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS05-BP08": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS05-BP09": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS05-BP10": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS06-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS06-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS06-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS06-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS07-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS07-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS07-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS07-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS07-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS08-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS08-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS08-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS08-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS08-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS09-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS09-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS09-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS10-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS10-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS10-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS10-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS10-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS10-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS10-BP07": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS11-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS11-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS11-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS11-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS11-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS11-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS11-BP07": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS11-BP08": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "OPS11-BP09": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF01-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF01-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF01-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF01-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF01-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF01-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF01-BP07": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF02-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF02-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF02-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF02-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF02-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF02-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF03-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF03-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF03-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF03-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF03-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF04-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF04-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF04-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF04-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF04-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF04-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF04-BP07": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF05-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF05-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF05-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF05-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF05-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF05-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "PERF05-BP07": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL01-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL01-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL01-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL01-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL01-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL01-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL02-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL02-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL02-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL02-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL02-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL03-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL03-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL03-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL04-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL04-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL04-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL04-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL05-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL05-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL05-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL05-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL05-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL05-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL05-BP07": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL06-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL06-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL06-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL06-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL06-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL06-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL06-BP07": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL07-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL07-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL07-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL07-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL08-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL08-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL08-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL08-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL08-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL09-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL09-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL09-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL09-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL10-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL10-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL10-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL11-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL11-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL11-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL11-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL11-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL11-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL11-BP07": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL12-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL12-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL12-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL12-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL12-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL13-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL13-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL13-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL13-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "REL13-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC01-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC01-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC01-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC01-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC01-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC01-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC01-BP07": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC01-BP08": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC02-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC02-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC02-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC02-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC02-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC02-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC03-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC03-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC03-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC03-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC03-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC03-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC03-BP07": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC03-BP08": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC03-BP09": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC04-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC04-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC04-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC04-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC05-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC05-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC05-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC05-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC06-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC06-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC06-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC06-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC06-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC07-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC07-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC07-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC07-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC08-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC08-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC08-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC08-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC09-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC09-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC09-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC10-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC10-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC10-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC10-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC10-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC10-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC10-BP07": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC10-BP08": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": false,
+        "benefits": false,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC11-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC11-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC11-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC11-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC11-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC11-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC11-BP07": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SEC11-BP08": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": true,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS01-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS02-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS02-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS02-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS02-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS02-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS02-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS03-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS03-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS03-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS03-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS03-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS04-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS04-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS04-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS04-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS04-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS04-BP06": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS04-BP07": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS04-BP08": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS05-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS05-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS05-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS05-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS06-BP01": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS06-BP02": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS06-BP03": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS06-BP04": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    },
+    "SUS06-BP05": {
+      "sections": {
+        "statement": true,
+        "desiredOutcome": false,
+        "commonAntiPatterns": true,
+        "benefits": true,
+        "implementationGuidance": true,
+        "resources": true
+      },
+      "riskKnown": true
+    }
+  }
+}

@@ -9,7 +9,17 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:69174d25336224874fa10757ee25f4e3298bceb8cf5ba47abf02f3a692abf494'
+content_hash: 'sha256:097afb91da30da64e17eae2e657ac84299d560bb40c541e3487f1629ab33052f'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL05-BP06 — Make systems stateless where possible
 

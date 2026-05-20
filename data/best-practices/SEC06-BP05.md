@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:a3cbc5727fe32c39daf333bedd9467adbc29d8bb71ccbac92b18e7f3d1c9384e'
+content_hash: 'sha256:41bc2650f045ba46eeeba203dd24ac1000888fd08d2ee03d8b2f6d68fd956f47'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC06-BP05 — Automate compute protection
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:a907b1690162a8b6479ed9d2c69da156167dc05ad7d38b63609677e78f1db717'
+content_hash: 'sha256:2d33e21eda596a6a18181a7e63ce1e86a802dd7d917a0b1886b3d201885f9946'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC05-BP01 — Create network layers
 

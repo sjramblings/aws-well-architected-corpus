@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:9daa25198fd53fd0328fff368c932ccad58544b255008becb136034d7775ebca'
+content_hash: 'sha256:66d00ccb3b5e55fcfaaa9d0d9a15bdedd1f9ffb32e9473babef48ec72381035b'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC01-BP06 — Automate deployment of standard security controls
 

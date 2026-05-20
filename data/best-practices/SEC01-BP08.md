@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:45db9c6aa51feb823566b5a06c63352921cefd7f13878f2f2f2f14495cc61947'
+content_hash: 'sha256:41ff1cf6abb309f97629b5055a7a7a247707dac1913a5ad1b915c99436d57a6c'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC01-BP08 — Evaluate and implement new security services and features regularly
 

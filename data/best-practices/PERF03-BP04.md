@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:53f515a245a36b72c988f9daed50d863bf21eb7e6542da2dcfc9044034b4ba87'
+content_hash: 'sha256:0e4ab7f41df1f4bf6c2d981e775467a458be34dd9570990184f5d76362f15687'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF03-BP04 — Implement strategies to improve query performance in data store
 

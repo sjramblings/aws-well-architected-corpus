@@ -11,7 +11,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:13079966ce117022b7aa9d84dbd85f9dc854cf63c308bca41bdfe0cb16c487dc'
+content_hash: 'sha256:8f45f49489403fcd4eb0739b148d9b0c32226e17233fa4dfcacf986d331a846a'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF05-BP01 — Establish key performance indicators (KPIs) to measure workload health and performance
 

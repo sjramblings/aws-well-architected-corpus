@@ -9,7 +9,17 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:cadca52702443bcec62dae507acbd67bf4220bf15f934db36a2e143609fc1479'
+content_hash: 'sha256:bf37b0f7a674b5bff3d6a3d5280aad76dc2412ac7e30c0ed5c258daa7451fdfd'
+extraction_warnings:
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # REL07-BP02 — Obtain resources upon detection of impairment to a workload
 

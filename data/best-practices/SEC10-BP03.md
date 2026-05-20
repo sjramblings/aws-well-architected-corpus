@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:30203134d3a399a68866961c5811b7a7844cbf7b74d1a819827453e46bc3a186'
+content_hash: 'sha256:e7e41f6d6a15cbafc62fd385aafdcfb058a75d805c1828750c8bc1ef3ddc61e0'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # SEC10-BP03 — Prepare forensic capabilities
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:f0a6a8f5241b7ed5bc83061087e01bcbde118371a25c72ef4a3e7cf4eef973e4'
+content_hash: 'sha256:8e925bf59f39ba2e7106ba5f7a30aed6f6a31b68cce7dbce4bc868259500d53d'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS02-BP03 — Operations activities have identified owners responsible for their performance
 

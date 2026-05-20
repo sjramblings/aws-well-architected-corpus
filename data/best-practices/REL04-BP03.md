@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:bcbd7270c7d1ac6aa05fdde6102ce1b2a2102cb5c1342956bc0b9388f8497fff'
+content_hash: 'sha256:630a6b986e493a7af157b9285dd23b3d1dc8ff9d1834e01fd2634fc0cd6692dc'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # REL04-BP03 — Do constant work
 

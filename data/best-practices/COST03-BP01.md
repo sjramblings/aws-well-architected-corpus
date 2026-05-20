@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:371ba54761faaaf0a5e18516a0b74e7b7d249a54fcfef926cdbec740bf2911a8'
+content_hash: 'sha256:02e04773ee881ff73d6abd3267b4737cc017e8ddc8237b4e34aec5bc78587c97'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST03-BP01 — Configure detailed information sources
 

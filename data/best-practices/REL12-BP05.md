@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:6dd855c5cb2618a7b2e5c9efd4e7b806103f569017ee22aa27152a359320f1f8'
+content_hash: 'sha256:7e06a0567a61e195e6212fd7c00dd6d442e5da1f205339d72eb9353b7fbe92e8'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL12-BP05 — Conduct game days regularly
 

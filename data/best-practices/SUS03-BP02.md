@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:7dfe65244981d0994b8ae67d7cc41f389ce8690ab88e5533d71a2e6e3da6820e'
+content_hash: 'sha256:cb531ab5b09c8675ca40d1a1cda5346b33559c183954cbedc3c7b87297601d55'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS03-BP02 — Remove or refactor workload components with low or no use
 

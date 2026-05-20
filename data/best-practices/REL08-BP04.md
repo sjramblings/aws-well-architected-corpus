@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:5419b23ba6aaf5c3227bf5c49f3156958133ef7d388266f285617c31226a691f'
+content_hash: 'sha256:de969427ff2273561811a0262af15325fce8cae0e445f48542da2f499d6d6da7'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL08-BP04 — Deploy using immutable infrastructure
 

@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:5a049614a80f4c8484e57d01a853e2ad908d03f46fa4244806293a811614956c'
+content_hash: 'sha256:418c347e40a072ef27d0449e6997c68360115cf3d5082c0a3a3f7ca39655fe71'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST03-BP06 — Allocate costs based on workload metrics
 

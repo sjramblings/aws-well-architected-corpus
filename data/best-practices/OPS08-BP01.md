@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:dd965c2efae7513817ae786a8d8dbac5cfa5787b1c7c2896d33023fda458a58b'
+content_hash: 'sha256:dc7657736d5a012c1bad5b8c791f06f6da8a0682c9a608cef4100f2a683290f3'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS08-BP01 — Analyze workload metrics
 

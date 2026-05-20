@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:5d171772c38b3e8a4d225a6b2b673ec228e393e76427e091c6355fdbb271649f'
+content_hash: 'sha256:a0e63d65d6131448f75e6c0183e9c62d22b5328d95652ecdd4b9f7d62a3f7d5a'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS06-BP01 — Communicate and cascade your sustainability goals
 

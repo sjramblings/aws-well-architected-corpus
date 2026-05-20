@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:16ec43c60985283882a376e6cc859421737fde9d95aaaebd029087f3c0c6d982'
+content_hash: 'sha256:29b0fa59cdf1dd10925764541ed856f0568903a11503f0f134755facb39f2c95'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF04-BP06 — Choose your workload's location based on network requirements
 

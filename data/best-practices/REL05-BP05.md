@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:512d156e3df285d6927a1e9cc4b0a0d64aa51270fd54cfb1b4620ebf0c36f490'
+content_hash: 'sha256:8c6739ab29d91bd9fa93e6ff42e8318eb8e99922bf6b935dec557a01784b81f1'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL05-BP05 — Set client timeouts
 

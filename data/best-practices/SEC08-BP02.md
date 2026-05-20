@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:a2f65edfcaafbbe9586f043525844c32c7dec6ac5ebcfc130f180dbbb537c035'
+content_hash: 'sha256:03a0018e5a81c26ca34b28b931703bd47443bfd21e6f2e3517fd57680cd1f2db'
+extraction_warnings:
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # SEC08-BP02 — Enforce encryption at rest
 

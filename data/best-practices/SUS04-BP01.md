@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:d4606c3ae2ce5842d3631935eeaaea609a912ff26f9d52503cdb66270a055970'
+content_hash: 'sha256:b4f5153a23ce5a4e425bc59feafc5fdd043f911238c7b4d84dedec2bcaa55f3e'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS04-BP01 — Implement a data classification policy
 

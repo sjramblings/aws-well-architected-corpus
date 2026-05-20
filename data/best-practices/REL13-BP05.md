@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:d05b0af1f8b18f614af0b99e39cd43d3394766dbf9833ad49b5b99c764f0e085'
+content_hash: 'sha256:cf4fa38bb9b868aebaac8225e280ff344c6acd4afb769c44a800ff96ff0e7b5f'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL13-BP05 — Automate recovery
 

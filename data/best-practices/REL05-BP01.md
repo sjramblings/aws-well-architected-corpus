@@ -11,7 +11,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:f700321f3af2ad49fa6c3d92454cf0bd8d1bcf87ce7a743ab31f879498386f67'
+content_hash: 'sha256:ce6cd3178738ed48728d9b5c011a3e1cd5453201780af7509fef11d757dd4441'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL05-BP01 — Implement graceful degradation to transform applicable hard dependencies into soft dependencies
 

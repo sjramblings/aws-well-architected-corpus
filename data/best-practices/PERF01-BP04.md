@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:09a1d71c128cfe512d5d12c7ba6fb8576e2023bbee64fb79327d84dc58e4398f'
+content_hash: 'sha256:e5da265ee53d28a9ef80b9f344b894d83313bbd6a5bb655689ee1df9217b2ce1'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF01-BP04 — Evaluate how trade-offs impact customers and architecture efficiency
 

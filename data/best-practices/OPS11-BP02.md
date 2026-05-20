@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:798d3549816f23235af064ce561b26764ce686aceacb7e0dd5d1a3385f5e0159'
+content_hash: 'sha256:5b17a7ae6897c16664dc148f275fff6652234c9939b449b2c0abf425a15eed6b'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS11-BP02 — Perform post-incident analysis
 

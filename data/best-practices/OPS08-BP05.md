@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:8fe8946eaa415bbc88ac0d64490087bea60119766afd73ad96e21ffa07b7bbc3'
+content_hash: 'sha256:29405003ac6db7efb6ca8fa9b6ff88f3d4f25c6499371bf1e961e80cd5ad23d9'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS08-BP05 — Create dashboards
 

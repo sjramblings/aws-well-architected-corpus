@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:85ecdc050182fb8bac5a3a3de2d69858a205b769051abe56a59c0c7d00557455'
+content_hash: 'sha256:ed8d48b72fcb0ed2aca844d9d22d8cc7c6f594ea70172049187dcf4d51e5d13e'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS04-BP04 — Use elasticity and automation to expand block storage or file system
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:d4862437d27bb055bea139b044d6a9be394c2aafc3df2f313ec567bb6c795301'
+content_hash: 'sha256:24a5b87d6da19f2d8f75d739a70cb28e5ca114f2c413c66dabea6d7e29823def'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS11-BP04 — Perform knowledge management
 

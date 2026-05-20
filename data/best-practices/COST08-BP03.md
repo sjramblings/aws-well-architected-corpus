@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:6f1fd65552d05a0428445aa9d8a8dd47d6ffe62a56d0a381492506d3af2ba3dc'
+content_hash: 'sha256:1e29391523e064b30e1d94ba5ef965b296199dd9b84200c047097e2f238340e7'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST08-BP03 — Implement services to reduce data transfer costs
 

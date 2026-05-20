@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:72776af3e553f878041a178c34ee5b620fe082b6e6896bedd819fffd0556572e'
+content_hash: 'sha256:7ed55085817c53d294c57f5e5870470a6eb388119b5542fe4711bcebbb7c75cf'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL01-BP02 — Manage service quotas across accounts and regions
 

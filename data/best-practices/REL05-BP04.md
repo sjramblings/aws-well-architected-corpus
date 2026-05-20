@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:c91087b84ab52d0d8e1f1c9d069ef1bdc726a0aa7b7974649e9b7e869082834e'
+content_hash: 'sha256:cf7568318a0d7fc8e4e736a5f7b0476f636fa974bef3605947c1fd71520e669f'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL05-BP04 — Fail fast and limit queues
 

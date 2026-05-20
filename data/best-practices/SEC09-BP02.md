@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:c227a98d544218a5e11e2f5d3ad76fd7e4f9cb891da10070e2b5cab24a355221'
+content_hash: 'sha256:c236c612c2840609e4deda2f12aa4808aec61238b10c28896295c7add36b46e7'
+extraction_warnings:
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # SEC09-BP02 — Enforce encryption in transit
 
