@@ -1,7 +1,7 @@
 import TurndownService from "turndown";
 import { HTMLElement, NodeType, parse, type Node } from "node-html-parser";
 
-import type { BestPractice, RiskLevel } from "./types.ts";
+import type { BestPractice, RiskLevel, SectionKey } from "./types.ts";
 
 const CONTENT_SELECTORS = ["#main-col-body", "#main-content", "main"] as const;
 
@@ -462,6 +462,15 @@ export function extractBestPractice(html: string, ctx: ExtractContext): BestPrac
     resourcesIndex === undefined
       ? ""
       : markdownFromHtml(htmlBetween(content, resourcesIndex + 1, content.childNodes.length));
+  const sectionPresence: Record<SectionKey, boolean> = {
+    statement: statement.trim() !== "",
+    desiredOutcome: desiredMarker !== undefined,
+    commonAntiPatterns: commonMarker !== undefined,
+    benefits: benefitsMarker !== undefined,
+    implementationGuidance:
+      implementationIndex !== undefined || stepsHeadingIndex !== undefined || implementationGuidanceResult.foundOrphanBody,
+    resources: resourcesIndex !== undefined,
+  };
 
   return {
     id: ctx.id,
@@ -479,5 +488,6 @@ export function extractBestPractice(html: string, ctx: ExtractContext): BestPrac
     implementationGuidance,
     resources,
     warnings,
+    sectionPresence,
   };
 }
