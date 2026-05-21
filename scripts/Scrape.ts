@@ -513,7 +513,7 @@ function printSummary(bestPractices: BestPractice[], stats: WriteStats): void {
 
 async function main(): Promise<void> {
   const flags = parseFlags(Bun.argv.slice(2));
-  const nodes = await fetchTocBpNodes();
+  const nodes = await fetchTocBpNodes(flags.offline);
 
   if (nodes.length < BP_COUNT_LOWER_GUARD) {
     console.error(`Layout break guard failed: TOC returned ${nodes.length} best practices, expected at least ${BP_COUNT_LOWER_GUARD}.`);
