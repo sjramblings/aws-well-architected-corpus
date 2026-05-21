@@ -5,7 +5,15 @@ import path from "node:path";
 import { extractBestPractice } from "./lib/extract.ts";
 import { classifyDeviations, loadBaseline, serializeBaseline } from "./lib/baseline.ts";
 import { fetchTocBpNodes } from "./lib/toc.ts";
-import { PILLARS, SECTION_KEYS, type BestPractice, type Deviation, type Meta, type TocBpNode } from "./lib/types.ts";
+import {
+  BP_COUNT_LOWER_GUARD,
+  PILLARS,
+  SECTION_KEYS,
+  type BestPractice,
+  type Deviation,
+  type Meta,
+  type TocBpNode,
+} from "./lib/types.ts";
 
 const FRAMEWORK_SOURCE = "https://docs.aws.amazon.com/wellarchitected/latest/framework/";
 const CACHE_DIR = ".cache";
@@ -347,6 +355,25 @@ async function enforceStructureBaseline(bestPractices: BestPractice[]): Promise<
   }
 }
 
+function enforceNearEmptyPageGuard(bestPractices: BestPractice[]): void {
+  const nearEmpty = bestPractices.filter(
+    (bp) =>
+      bp.statement.trim().length === 0 &&
+      bp.implementationGuidance.trim().length === 0 &&
+      bp.resources.trim().length === 0,
+  );
+  if (nearEmpty.length === 0) {
+    return;
+  }
+
+  for (const bp of nearEmpty) {
+    const message = `Near-empty best-practice page ${bp.id}: Statement, Implementation Guidance, and Resources are empty.`;
+    ghAnnotate("error", message);
+    console.error(message);
+  }
+  process.exit(1);
+}
+
 async function safeReadDir(dir: string): Promise<string[]> {
   try {
     return await readdir(dir);
@@ -488,8 +515,8 @@ async function main(): Promise<void> {
   const flags = parseFlags(Bun.argv.slice(2));
   const nodes = await fetchTocBpNodes();
 
-  if (nodes.length < 280) {
-    console.error(`Layout break guard failed: TOC returned ${nodes.length} best practices, expected at least 280.`);
+  if (nodes.length < BP_COUNT_LOWER_GUARD) {
+    console.error(`Layout break guard failed: TOC returned ${nodes.length} best practices, expected at least ${BP_COUNT_LOWER_GUARD}.`);
     process.exit(1);
   }
 
@@ -512,10 +539,12 @@ async function main(): Promise<void> {
   );
   bestPractices.sort((a, b) => a.id.localeCompare(b.id));
 
-  if (bestPractices.length < 280) {
-    console.error(`Layout break guard failed: extracted ${bestPractices.length} best practices, expected at least 280.`);
+  if (bestPractices.length < BP_COUNT_LOWER_GUARD) {
+    console.error(`Layout break guard failed: extracted ${bestPractices.length} best practices, expected at least ${BP_COUNT_LOWER_GUARD}.`);
     process.exit(1);
   }
+
+  enforceNearEmptyPageGuard(bestPractices);
 
   if (flags.blessBaseline) {
     await blessStructureBaseline(bestPractices);
