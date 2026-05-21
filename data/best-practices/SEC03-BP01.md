@@ -9,7 +9,17 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:a243d22dd209aa950cc7a69c38d16c403e895e7b9398e61e40e21f8ee8000eb9'
+content_hash: 'sha256:c6067e3e46e39258639110db3ef95e104d32de8cccb9ce539390698f90ec1b93'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # SEC03-BP01 — Define access requirements
 

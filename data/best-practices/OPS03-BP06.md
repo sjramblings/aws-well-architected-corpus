@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:e78fdbb84a201e47322d93f33ec635dccf1b1db8ba3a266aa5cd4cc37c308126'
+content_hash: 'sha256:91c26b767d8dc639f9b2386c7dbd126ae03dbe74615bd4902f625fc04833eebd'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS03-BP06 — Team members are encouraged to maintain and grow their skill sets
 

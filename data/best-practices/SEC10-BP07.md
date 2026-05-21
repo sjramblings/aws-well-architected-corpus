@@ -9,7 +9,17 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:70c30d47acbd94e7081e7370d32dda56e0ba9af37fa2deb24f43b43a3ddf4d54'
+content_hash: 'sha256:4558d37b9bf1519b5153b8c3c9f33006e2644b21689cec61518305f316cd8b94'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC10-BP07 — Run simulations
 

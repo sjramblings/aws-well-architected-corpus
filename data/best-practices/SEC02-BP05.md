@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:53cce56084666f8c4dee9f5d23c9877903c0451d3fc1d38d9e34fd8ac027c893'
+content_hash: 'sha256:150ccac404fe36eecb76d4f0751f2f7936c45ed2d3b4a9c2ce37a79d847ece09'
+extraction_warnings:
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # SEC02-BP05 — Audit and rotate credentials periodically
 

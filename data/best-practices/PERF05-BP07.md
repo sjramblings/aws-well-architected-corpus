@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:5156acb104785c1b6372fe3cc34f63eb0c0ad635fce9a71653181e4423007068'
+content_hash: 'sha256:d219050f80179746b95397374d778177ebf64a82743f035f938e049058c11e6d'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF05-BP07 — Review metrics at regular intervals
 

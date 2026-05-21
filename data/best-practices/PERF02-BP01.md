@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:9f6c9eb28e1068052eba641a3a9d34b7ba38655f8d66a9773801ebd5d7795b2e'
+content_hash: 'sha256:c8cfc7f32d2b51d9ba01196374879a14c637fd437501ce0ccbf7b5c855980d3b'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF02-BP01 — Select the best compute options for your workload
 

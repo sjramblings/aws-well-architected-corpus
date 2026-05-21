@@ -281,7 +281,9 @@ async function main(): Promise<void> {
   }
 
   const byteLength = Buffer.byteLength(selectedJson, "utf8");
-  console.log(`Improvement plan cap used: ${selectedCap}`);
+  console.log(
+    `Improvement plan cap used: ${selectedCap} chars (lens-size ceiling; full text retained in corpus + bundle)`,
+  );
   if (byteLength > 500_000) {
     console.warn(`WARNING: lens JSON is ${byteLength} bytes, exceeding the 500000 byte hard limit`);
   }

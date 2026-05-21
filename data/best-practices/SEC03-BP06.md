@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:e9052db706dc52439bacc164008967e7594f07833b4c156c841db73e05a14f79'
+content_hash: 'sha256:f044a922f9f99bb56091de1d6e766644da7dab5951edd98a8583f27ec60c6be1'
+extraction_warnings:
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # SEC03-BP06 — Manage access based on lifecycle
 

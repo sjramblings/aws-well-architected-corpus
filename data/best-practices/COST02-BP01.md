@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:9627d9d5819e6f1476936275c89734487cc0f199900b2b687d6dd2bfc11ace86'
+content_hash: 'sha256:c387a35a0796781ccdedc6d6081e9daff840d0afd606520e52335da4e25c6e91'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST02-BP01 — Develop policies based on your organization requirements
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:0fbf1e27cc344f520a303d5cae7c114ce6c9c7e09952beb694784383295a634b'
+content_hash: 'sha256:5177a11fc82eba06ede6b3d54a6d1680235276f07c18d5216403d5070e83f9a5'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS01-BP05 — Evaluate threat landscape
 

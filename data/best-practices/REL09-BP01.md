@@ -11,7 +11,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:d01c2c57c257e6a9185c86f7c217b29934dff7bfb9f68102a02b318f93c546ba'
+content_hash: 'sha256:0f6c65c732fd362c508cf5fc9f82db1a1fc54c867619b94f51bbc54eb57bd202'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL09-BP01 — Identify and back up all data that needs to be backed up, or reproduce the data from sources
 

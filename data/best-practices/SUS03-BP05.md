@@ -11,7 +11,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:80a0029e7f1be051a1989c91d71ec09f7888a582c89d1d6096396646fb79c7a0'
+content_hash: 'sha256:3de37e15a98c043aa7f10e31edea32fc9a87d1c99bba0827c856ee171eda67f0'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS03-BP05 — Use software patterns and architectures that best support data access and storage patterns
 

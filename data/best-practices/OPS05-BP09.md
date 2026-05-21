@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:b0906e1adce552dcb98e18337d976bca30940dc405c7f4ebd4ee1b52a052e73f'
+content_hash: 'sha256:ead87e74c2858974c530b14c2f33cec1dcc0bf1c47dfa8d82e4db812cc6832be'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS05-BP09 — Make frequent, small, reversible changes
 

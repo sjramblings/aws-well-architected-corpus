@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:f7b934ba2c8e46f360dfa71c264c8c79cf45819b0d4bf2a950a46823f6a3855d'
+content_hash: 'sha256:0919a41c53ab2cd69e21fe0b10799a61aeb7f7aeb5a9a7ea90e6bf537b9ef29c'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # SEC01-BP07 — Identify threats and prioritize mitigations using a threat model
 

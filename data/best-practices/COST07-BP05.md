@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:4cc622fe65d4acf2e889000a6e2db5d1804844c180e9e388a0cfd4de0684f457'
+content_hash: 'sha256:3464b87559a82df0452ae343327408137fd78fec87eb58cb140bd45474784bdd'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST07-BP05 — Perform pricing model analysis at the management account level
 

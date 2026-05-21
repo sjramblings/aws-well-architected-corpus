@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:23a22a3243bc739af9b9b6080eeaf41052379b9fd815e1d3d1c58a89a082a2d0'
+content_hash: 'sha256:dc73da13b7c60500a31db82646c76c3f8337e71109abb04e90e95640b6ce6dfd'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS10-BP01 — Use a process for event, incident, and problem management
 

@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:02e17164e961d791eb01c961f57ed5b103df7c0d7de3b1019be06a9833d6f571'
+content_hash: 'sha256:5839b195adcd4f19107b1c465976afbfb3d789c43af76bb7fe2b9aa9f13cbb53'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS04-BP07 — Minimize data movement across networks
 

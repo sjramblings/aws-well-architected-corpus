@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:76003a9ecd28b600a0c4bc7b19fe242954bccd4d0fa66a68641a8c4c1d7c06c2'
+content_hash: 'sha256:e4a191c9db23ca87cb366dc0ca0563a0c814aee2ea6bed7c326d17100f23752e'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC06-BP04 — Validate software integrity
 

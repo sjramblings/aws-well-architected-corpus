@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:25d5c578319836dfda9dadaff9b75b7e7755150a6fb8459d5df4e3b23a3b62c8'
+content_hash: 'sha256:327352749698c5823311b31d3dd5a49e025cb6d536916908aa9c11c26e70cdff'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS07-BP04 — Use playbooks to investigate issues
 

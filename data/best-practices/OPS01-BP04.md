@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:5bb0f5a1b33897b7bf50bfdc8aa5f086aebbbd68fa01e826c3280c0141d3becd'
+content_hash: 'sha256:7872d950448b6fd1cec19e0ed19c244b9c9011561b81159c670fd63b3f3e5b87'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS01-BP04 — Evaluate compliance requirements
 

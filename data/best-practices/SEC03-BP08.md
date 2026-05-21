@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:ab8476cefb2d78ac32a8c44a21c772326bdf81935a75b66d6cbfc578d96f583c'
+content_hash: 'sha256:09918e10d72a12d9b83ce138117894bd4a48ef168767dd9d2b949a4112420f30'
+extraction_warnings:
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # SEC03-BP08 — Share resources securely within your organization
 

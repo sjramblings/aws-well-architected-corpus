@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:04cd89fc40e4b3efd91eb5e7bdc9eadd41591c2acbb1695f34e55f6367a84a83'
+content_hash: 'sha256:fc62960b0bb90173241c7ef7c9f394b06fbc1e5dbf8544aa0296a5bfb51d5a62'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF02-BP03 — Collect compute-related metrics
 

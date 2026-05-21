@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:9e201fb4594e44da1a12641dee7253b84813fdbd7aeef882415d7f255eec7448'
+content_hash: 'sha256:2f2d0a92fdcf810aa845f1f31923a3810b1ea0883c986b45242ac890293493a0'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS02-BP04 — Mechanisms exist to manage responsibilities and ownership
 

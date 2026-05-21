@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:3b34d0613fab77d4868bb504f218e5152d4234bba09aa0a2fea1218236a3db8b'
+content_hash: 'sha256:486a59078fb54e235caf8a1691bf963d299f814716dbef94da734dbb195bf558'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL02-BP01 — Use highly available network connectivity for your workload public endpoints
 

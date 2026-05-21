@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:48fc708e0d7e41ca0beed646ed3c141bcc5948a689a9d4b0b72bb26057f6c60b'
+content_hash: 'sha256:b50953a8276a2a29df0a2dbee2788136420666bf019c26fc3eb50b3dea25a3c8'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS04-BP06 — Use shared file systems or storage to access common data
 

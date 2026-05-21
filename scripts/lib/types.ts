@@ -7,6 +7,10 @@ export type Pillar = {
 
 export type RiskLevel = "HIGH" | "MEDIUM" | "LOW" | "UNKNOWN";
 
+export type SectionKey = "statement" | "desiredOutcome" | "commonAntiPatterns" | "benefits" | "implementationGuidance" | "resources";
+
+export const SECTION_KEYS = ["statement", "desiredOutcome", "commonAntiPatterns", "benefits", "implementationGuidance", "resources"] as const satisfies readonly SectionKey[];
+
 export const PILLARS = [
   {
     slug: "operational-excellence",
@@ -72,6 +76,25 @@ export type BestPractice = {
   implementationGuidance: string;
   resources: string;
   warnings: string[];
+  sectionPresence: Record<SectionKey, boolean>;
+};
+
+export type BaselineEntry = {
+  sections: Record<SectionKey, boolean>;
+  riskKnown: boolean;
+};
+
+export type StructureBaseline = {
+  schema: 1;
+  blessed_at: string;
+  bp_count: number;
+  best_practices: Record<string, BaselineEntry>;
+};
+
+export type Deviation = {
+  bpId: string;
+  kind: "REGRESSION" | "ENRICHMENT" | "NEW_BP" | "REMOVED_BP";
+  section?: SectionKey | "risk";
 };
 
 export type Meta = {
@@ -98,3 +121,17 @@ export function pillarForSlug(slug: string): Pillar {
   }
   return pillar;
 }
+
+// Shared best-practice-count expectations, consumed by structure-drift guards.
+export const EXPECTED_BP_COUNT = 306;
+
+export const EXPECTED_BP_COUNT_BY_PREFIX: Readonly<Record<string, number>> = {
+  OPS: 67,
+  SEC: 63,
+  REL: 65,
+  PERF: 32,
+  COST: 50,
+  SUS: 29,
+};
+
+export const BP_COUNT_LOWER_GUARD = 280;

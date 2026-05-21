@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:6fa2a0e293c89b485497f953fec6942f5621ef4a60cb488b1e8aa735957b55b9'
+content_hash: 'sha256:75a5dd47c961dba6759bfb66bb40094533b4368a3e0b676ca82380e97e3bbeb2'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS09-BP02 — Communicate status and trends to ensure visibility into operation
 

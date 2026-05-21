@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:fcf2043b5dbd070991683f4d480e27078c1bf9b1618eb53a3b68a23d42c20456'
+content_hash: 'sha256:65ff8e127413d96eced67a18e801598f9e0d5f03377456d3c8d038c9a8bdd414'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL06-BP04 — Automate responses (Real-time processing and alarming)
 

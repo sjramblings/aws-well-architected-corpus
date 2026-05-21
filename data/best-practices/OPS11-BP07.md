@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:eb14020dd4815d805de0c9e9f5547b68033e97090850d15bf2ee005232bebd55'
+content_hash: 'sha256:e77508d1593ea8108ac7a7cda4c00af143eb611a4e0792c408b1338ffd747a10'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS11-BP07 — Perform operations metrics reviews
 

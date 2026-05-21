@@ -11,7 +11,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:2a6d1ca979de621e4de825d0402c739193d51ea9444023c41d6f779d85b5843b'
+content_hash: 'sha256:666a71ccb2e2bc6be778cd3579c73402f645692ea2c4e44bb8c7bbd0dd16c5a8'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL02-BP02 — Provision redundant connectivity between private networks in the cloud and on-premises environments
 

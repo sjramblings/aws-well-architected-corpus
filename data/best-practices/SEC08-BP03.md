@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:8941fef76809814408647ef77e52110d63b4e8f3f4428bd7049b1dc5104a2c0c'
+content_hash: 'sha256:14e33a00d97479027c4311c4629d6d7995e089ba4087c33b044495fff1bb4a7a'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC08-BP03 — Automate data at rest protection
 

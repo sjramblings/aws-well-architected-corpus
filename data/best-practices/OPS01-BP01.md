@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:1a91060ebad499a9b35f483c845cd9bfcc63d0969e581c10baf035a3d3df0c86'
+content_hash: 'sha256:1589b06f93aa33ecdbebd34b39444aa6c19af52b53a1daa3b7eae3482544f3f4'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS01-BP01 — Evaluate external customer needs
 

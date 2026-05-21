@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:769811ee04d2607605972188118845b9eb760f14fa9a5fba62466a273e311bff'
+content_hash: 'sha256:350e1663c5a770ced86618d4e0581040673d500b05ae43bfa5b66491413d4397'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS06-BP03 — Keep your workload up-to-date
 

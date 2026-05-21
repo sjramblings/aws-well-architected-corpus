@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:21a9d575326c6f42602ff18a4b9f6f468494eb6ed205ed83d18f04cbbaeb9eb6'
+content_hash: 'sha256:d432183b91c864ee67fdacea136cd30d1ad0e08bcbb99918cd5b54a89f6d6bb7'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC05-BP03 — Implement inspection-based protection
 

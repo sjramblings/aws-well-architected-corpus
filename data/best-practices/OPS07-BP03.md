@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:cc2daf91a10e07f3e6d7cd03a8ce4be9ac34248585e4b2a783eb52299cec2d2f'
+content_hash: 'sha256:ab86e3508c9c9551aff04024b38f08db44bc07d007bef97bd941a222002f5550'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS07-BP03 — Use runbooks to perform procedures
 

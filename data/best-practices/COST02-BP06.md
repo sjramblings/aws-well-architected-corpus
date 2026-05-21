@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:c634e658e98ff509f985eccacc7f421fcfa62cdb7db93cf8c168932a57289bf6'
+content_hash: 'sha256:5f672d26fbf6ef3ce58b6e0da2cda03e858374adc2af91251a7c5be7ad76015b'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST02-BP06 — Track project lifecycle
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:ca827a46b5e7a8c9a3dd66b48e13f9749821a07a2ec83a5c43a1453c9477f749'
+content_hash: 'sha256:93b0fed8876c5d72313b7c6a7d9df51a929e4519786b765cb27721158b28ddf4'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL12-BP04 — Test resiliency using chaos engineering
 

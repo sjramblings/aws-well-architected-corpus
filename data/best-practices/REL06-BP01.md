@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:de0478897c6d21e15a134fae3286dcfcee964fcfadcc55082c214600dfbddbdd'
+content_hash: 'sha256:3a1734380fa4a50b32415ea7642d2133555df982b395acaab8baf92c82a96ad2'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL06-BP01 — Monitor all components for the workload (Generation)
 

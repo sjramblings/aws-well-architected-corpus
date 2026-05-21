@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:f19d74a5f2a76064922b95baf4040eac4be718285ccd6fc92346263b67f4bde4'
+content_hash: 'sha256:4dcd911fdf84b1bc569523e174343595611f4771dcbc6b20b7696433d5cf8c29'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST07-BP04 — Implement pricing models for all components of this workload
 

@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:b3e45b80d3dba184a55f87d25bcb07bc55c31a54f41772dd7b98894c8df5d437'
+content_hash: 'sha256:111e4fb44b8daaed2be2d0c0edd083f2b398f74f9d76553eb3b62d361aaaed82'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST09-BP03 — Supply resources dynamically
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:9ab00746e5be82cacab0589d30cc7f2f891af94c12e42fb5c61ea6638ab796c3'
+content_hash: 'sha256:3ec6faa3937cfe8a1a94a335a7290171da4de56756c1233a7a254f1f82808274'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC01-BP05 — Reduce security management scope
 

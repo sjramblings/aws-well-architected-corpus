@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:7d6463262a2677b54c1ebe2362acd81674611ce4a0555a8105a679009e40c65e'
+content_hash: 'sha256:d4a7dba89cf46d580fee207f2307c627c42561583e32aa2f211ee9d88c18a632'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS06-BP01 — Plan for unsuccessful changes
 

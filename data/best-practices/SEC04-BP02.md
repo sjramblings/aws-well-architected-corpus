@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:3a2d962bb4dc270a3a5062405da255debfb499cc0444ac15cc0f4c546d0abbbb'
+content_hash: 'sha256:6985265240f1b3100822921aac5e9a4f0f147909ae5209457e93c16a24026e6d'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC04-BP02 — Capture logs, findings, and metrics in standardized locations
 

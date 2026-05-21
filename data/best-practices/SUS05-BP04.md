@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:caa48b57f7f123c27dd197b637f85a89887883da7ddd6b4d58ae202dfa4227c0'
+content_hash: 'sha256:64959be091d97475333ec746cf5815acce7bfab775e16cba3585674de2f25b6c'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS05-BP04 — Optimize your use of hardware-based compute accelerators
 

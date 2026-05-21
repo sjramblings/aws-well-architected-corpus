@@ -1,11 +1,22 @@
 import matter from "gray-matter";
 import { readdir } from "node:fs/promises";
 import path from "node:path";
-import { PILLARS } from "./lib/types.ts";
+import { classifyDeviations, loadBaseline } from "./lib/baseline.ts";
+import {
+  EXPECTED_BP_COUNT,
+  EXPECTED_BP_COUNT_BY_PREFIX,
+  PILLARS,
+  SECTION_KEYS,
+  type BestPractice,
+  type Deviation,
+  type RiskLevel,
+  type SectionKey,
+} from "./lib/types.ts";
 
 const BP_DIR = "data/best-practices";
 const PILLAR_DIR = "data/pillars";
 const META_PATH = "data/_meta.json";
+const BASELINE_PATH = "data/_structure-baseline.json";
 const LENS_PATH = "data/aws-well-architected-lens.json";
 const BUNDLE_PATH = "data/aws-well-architected.json";
 
@@ -30,6 +41,12 @@ type LensShape = {
 
 type BundleShape = {
   best_practices?: unknown[];
+};
+
+type CommandResult = {
+  exitCode: number;
+  stdout: string;
+  stderr: string;
 };
 
 async function exists(filePath: string): Promise<boolean> {
@@ -81,6 +98,21 @@ async function readMeta(): Promise<MetaShape> {
   return JSON.parse(await Bun.file(META_PATH).text()) as MetaShape;
 }
 
+async function runCommand(command: string[]): Promise<CommandResult> {
+  const subprocess = Bun.spawn(command, {
+    cwd: process.cwd(),
+    stdin: "ignore",
+    stdout: "pipe",
+    stderr: "pipe",
+  });
+  const [stdout, stderr, exitCode] = await Promise.all([
+    new Response(subprocess.stdout).text(),
+    new Response(subprocess.stderr).text(),
+    subprocess.exited,
+  ]);
+  return { exitCode, stdout, stderr };
+}
+
 function requireRecord(value: unknown, label: string): Record<string, unknown> {
   if (value === null || typeof value !== "object" || Array.isArray(value)) {
     throw new Error(`${label} is not an object`);
@@ -88,9 +120,49 @@ function requireRecord(value: unknown, label: string): Record<string, unknown> {
   return value as Record<string, unknown>;
 }
 
+function requireSectionPresence(value: unknown, label: string): Record<SectionKey, boolean> {
+  const record = requireRecord(value, label);
+  const sectionPresence = {} as Record<SectionKey, boolean>;
+  const extraKeys = Object.keys(record).filter((key) => !SECTION_KEYS.includes(key as SectionKey));
+  if (extraKeys.length > 0) {
+    throw new Error(`${label} has unexpected keys: ${extraKeys.join(", ")}`);
+  }
+
+  for (const section of SECTION_KEYS) {
+    const present = record[section];
+    if (typeof present !== "boolean") {
+      throw new Error(`${label}.${section} is not a boolean`);
+    }
+    sectionPresence[section] = present;
+  }
+  return sectionPresence;
+}
+
+function riskLevelFromFrontmatter(value: unknown): RiskLevel {
+  return value === "HIGH" || value === "MEDIUM" || value === "LOW" || value === "UNKNOWN" ? value : "UNKNOWN";
+}
+
+function prefixFromId(id: string): string {
+  const match = /^(OPS|SEC|REL|PERF|COST|SUS)/.exec(id);
+  if (match === null) {
+    throw new Error(`cannot derive pillar prefix from BP id ${id}`);
+  }
+  return match[1];
+}
+
+function isErrorDeviation(deviation: Deviation): boolean {
+  return deviation.kind === "REGRESSION" || deviation.kind === "REMOVED_BP";
+}
+
+function deviationMessage(deviation: Deviation): string {
+  return deviation.section === undefined
+    ? `${deviation.kind} ${deviation.bpId}`
+    : `${deviation.kind} ${deviation.bpId} ${deviation.section}`;
+}
+
 async function checkExistence(): Promise<string> {
   const requiredDirs = ["scripts", BP_DIR, PILLAR_DIR];
-  const requiredFiles = [LENS_PATH, BUNDLE_PATH, META_PATH, ".github/workflows/refresh.yml"];
+  const requiredFiles = [LENS_PATH, BUNDLE_PATH, META_PATH, BASELINE_PATH, ".github/workflows/refresh.yml"];
   const missing: string[] = [];
 
   for (const dir of requiredDirs) {
@@ -113,13 +185,32 @@ async function checkExistence(): Promise<string> {
 async function checkBpCount(): Promise<string> {
   const files = await bpFiles();
   const meta = await readMeta();
-  if (files.length !== meta.bp_count) {
-    throw new Error(`file count ${files.length} does not equal _meta.json bp_count ${meta.bp_count}`);
+  if (files.length !== EXPECTED_BP_COUNT) {
+    throw new Error(`BP file count ${files.length} does not equal expected ${EXPECTED_BP_COUNT}`);
   }
-  if (files.length < 280 || files.length > 340) {
-    throw new Error(`BP count ${files.length} outside inclusive range 280-340`);
+  if (meta.bp_count !== EXPECTED_BP_COUNT) {
+    throw new Error(`_meta.json bp_count ${meta.bp_count} does not equal expected ${EXPECTED_BP_COUNT}`);
   }
-  return `${files.length} best-practice files`;
+
+  const countsByPrefix = new Map<string, number>();
+  for (const file of files) {
+    const id = file.slice(0, -".md".length);
+    const prefix = prefixFromId(id);
+    countsByPrefix.set(prefix, (countsByPrefix.get(prefix) ?? 0) + 1);
+  }
+
+  const unexpectedPrefixes = [...countsByPrefix.keys()].filter((prefix) => EXPECTED_BP_COUNT_BY_PREFIX[prefix] === undefined);
+  if (unexpectedPrefixes.length > 0) {
+    throw new Error(`unexpected BP prefixes: ${unexpectedPrefixes.join(", ")}`);
+  }
+
+  for (const [prefix, expectedCount] of Object.entries(EXPECTED_BP_COUNT_BY_PREFIX)) {
+    const actualCount = countsByPrefix.get(prefix) ?? 0;
+    if (actualCount !== expectedCount) {
+      throw new Error(`${prefix} count ${actualCount} does not equal expected ${expectedCount}`);
+    }
+  }
+  return `${files.length} best-practice files match expected total and per-prefix counts`;
 }
 
 async function checkPillarFiles(): Promise<string> {
@@ -171,12 +262,71 @@ async function checkFrontmatter(): Promise<string> {
         invalid.push(`${file}:${key}`);
       }
     }
+
+    const sectionsPresent = data["sections_present"];
+    if (sectionsPresent === null || typeof sectionsPresent !== "object" || Array.isArray(sectionsPresent)) {
+      invalid.push(`${file}:sections_present`);
+    } else {
+      try {
+        requireSectionPresence(sectionsPresent, `${file}:sections_present`);
+      } catch {
+        invalid.push(`${file}:sections_present`);
+      }
+    }
+
+    const extractionWarnings = data["extraction_warnings"];
+    if (!Array.isArray(extractionWarnings) || extractionWarnings.some((warning) => typeof warning !== "string")) {
+      invalid.push(`${file}:extraction_warnings`);
+    }
   }
 
   if (invalid.length > 0) {
     throw new Error(`missing or empty fields: ${invalid.join(", ")}`);
   }
   return "required BP frontmatter fields are populated";
+}
+
+function bestPracticeFromFrontmatter(file: string, data: Record<string, unknown>): BestPractice {
+  const id = typeof data["id"] === "string" && data["id"].trim().length > 0 ? data["id"] : file.slice(0, -".md".length);
+  return {
+    id,
+    pillarSlug: "",
+    prefix: prefixFromId(id),
+    questionId: "",
+    question: "",
+    title: "",
+    riskLevel: riskLevelFromFrontmatter(data["risk_level"]),
+    sourceUrl: "",
+    statement: "",
+    desiredOutcome: "",
+    commonAntiPatterns: "",
+    benefits: "",
+    implementationGuidance: "",
+    resources: "",
+    warnings: [],
+    sectionPresence: requireSectionPresence(data["sections_present"], `${file}:sections_present`),
+  };
+}
+
+async function checkStructureBaseline(): Promise<string> {
+  const baseline = await loadBaseline(BASELINE_PATH);
+  if (baseline === undefined) {
+    throw new Error(`missing or invalid structure baseline ${BASELINE_PATH}`);
+  }
+
+  const bestPractices: BestPractice[] = [];
+  for (const file of await bpFiles()) {
+    const parsed = matter(await Bun.file(path.join(BP_DIR, file)).text());
+    bestPractices.push(bestPracticeFromFrontmatter(file, parsed.data as Record<string, unknown>));
+  }
+
+  const deviations = classifyDeviations(bestPractices, baseline);
+  const errorDeviations = deviations.filter(isErrorDeviation);
+  if (errorDeviations.length > 0) {
+    throw new Error(`structure baseline errors: ${errorDeviations.map(deviationMessage).join(", ")}`);
+  }
+
+  return `frontmatter matches structure baseline with ${deviations.length} non-error deviation(s)`;
 }
 
 async function checkLens(): Promise<string> {
@@ -224,6 +374,30 @@ async function checkBundle(): Promise<string> {
   return "bundle parses and BP count matches files";
 }
 
+async function captureDataDiff(): Promise<string> {
+  const result = await runCommand(["git", "diff", "--", "data/"]);
+  if (result.exitCode !== 0) {
+    throw new Error(`git diff -- data/ failed with exit ${result.exitCode}: ${result.stderr.trim()}`);
+  }
+  return result.stdout;
+}
+
+async function checkIdempotency(): Promise<string> {
+  const beforeDiff = await captureDataDiff();
+  const scrape = await runCommand(["bun", "scripts/Scrape.ts", "--offline"]);
+  if (scrape.exitCode !== 0) {
+    const details = [scrape.stderr.trim(), scrape.stdout.trim()].filter((part) => part.length > 0).join("\n");
+    throw new Error(`offline scrape failed with exit ${scrape.exitCode}${details.length > 0 ? `: ${details}` : ""}`);
+  }
+
+  const afterDiff = await captureDataDiff();
+  if (afterDiff !== beforeDiff) {
+    throw new Error("offline scrape changed data/ beyond the pre-existing diff");
+  }
+
+  return "offline scrape leaves data/ diff byte-identical";
+}
+
 async function checkLensIdIntegrity(): Promise<string> {
   const lens = JSON.parse(await Bun.file(LENS_PATH).text()) as LensShape;
   const missing: string[] = [];
@@ -267,13 +441,14 @@ async function checkAttribution(): Promise<string> {
 async function main(): Promise<void> {
   const checks: Array<[string, () => Promise<string>]> = [
     ["EXISTENCE", checkExistence],
-    ["BP COUNT", checkBpCount],
+    ["BP COUNT EXACT", checkBpCount],
     ["PILLAR FILES", checkPillarFiles],
     ["FILENAMES", checkFilenames],
     ["FRONTMATTER", checkFrontmatter],
+    ["STRUCTURE BASELINE", checkStructureBaseline],
     ["LENS", checkLens],
     ["BUNDLE", checkBundle],
-    ["IDEMPOTENCY REMINDER", async () => "true idempotency check: bun scripts/Scrape.ts --offline followed by git diff --stat data/"],
+    ["IDEMPOTENCY", checkIdempotency],
     ["LENS ID INTEGRITY", checkLensIdIntegrity],
     ["ATTRIBUTION", checkAttribution],
   ];

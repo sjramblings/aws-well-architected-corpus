@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:e5c9bf9f0bb7905525b66a062096d26735df203d28c9e2cb4b77283820e97f0c'
+content_hash: 'sha256:bf0e7ba75a5db6176df98c043ce5458316fd854f253604144a82714a8cae4c63'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL04-BP04 — Make mutating operations idempotent
 

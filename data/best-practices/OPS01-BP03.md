@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:34d7419e58f4e4dab0e06d6a5d2dc26e4d5ad2699687fd7dcfec49ec71f4f904'
+content_hash: 'sha256:f95ebfbda6a42b8c9b18ab74eb25947c1c15e8368330508643ce0d35e4ef9e7a'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS01-BP03 — Evaluate governance requirements
 

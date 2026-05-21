@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:84e26338cdbb02b31425f990aa6e653c0dca7effb6f08f72fa4ff0d8bfe29ab1'
+content_hash: 'sha256:7f8a06b64ec3bb73ca7ba43345bfa1520155cbd0c84c272676a116c5e2ef5daa'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC11-BP01 — Train for application security
 

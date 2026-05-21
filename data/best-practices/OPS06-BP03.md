@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:c461779284f546a4bae0ac3ef3612cd6289e8198edb424ed97456c062c19abf7'
+content_hash: 'sha256:4095493b028db5806ada1d046b3eaab8fbaa23c7b5336986ccbc0f2d35bc8ee0'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS06-BP03 — Employ safe deployment strategies
 

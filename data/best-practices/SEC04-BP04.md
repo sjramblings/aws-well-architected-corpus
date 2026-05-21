@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:6ba9bfafa55713eff65b88ae0b43bb8e3a98b60142819bfe5b9c521a6b71c7e6'
+content_hash: 'sha256:8517b112306904dbd618a09bb01e82998b3e58daa5ddcd2290b74ea26e4b15ac'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC04-BP04 — Initiate remediation for non-compliant resources
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:e87feedbe14391a59c9944f557097760822207d7c1dcd9e5607e197a0ad3dcfb'
+content_hash: 'sha256:60b9a7a0dc4a08f4b2015c927f405744aae0a7f2219222de0bc9bab820ad85d1'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC03-BP03 — Establish emergency access process
 

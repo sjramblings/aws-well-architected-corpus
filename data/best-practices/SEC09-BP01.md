@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:71b68c9adb3f54b8fb249c124b2f56bea99bebb81c25f3e3e847ea9ff551a3e4'
+content_hash: 'sha256:5b1fd0f2445df24538aae89ed80470e2a4fd8f997511b23f586cf72f8c150d27'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC09-BP01 — Implement secure key and certificate management
 

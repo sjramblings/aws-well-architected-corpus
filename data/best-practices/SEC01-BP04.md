@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:4628f282f89da4485beafdd4b237e2f22d507d7f897e729e8aa14db7db20016b'
+content_hash: 'sha256:b8b9025f84fdf848056a1c453c1fe81939668e3565286f3a57f45307080ed3c2'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC01-BP04 — Stay up to date with security threats and recommendations
 

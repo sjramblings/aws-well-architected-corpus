@@ -1781,7 +1781,7 @@
                 "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/sec_incident_response_prepare_forensic.html"
               },
               "improvementPlan": {
-                "displayText": ""
+                "displayText": "Concepts from traditional on premises forensics apply to AWS. For key information to start building forensics capabilities in the AWS Cloud, see Forensic investigation environment strategies in the AWS Cloud. Once you have your environment and AWS account structure set up for forensics, define the technologies required to effectively perform forensically sound methodologies across the four phases: Collection: Collect relevant AWS logs, such as AWS CloudTrail, AWS Config, VPC Flow Logs, and host level logs. Collect snapshots, backups, and memory dumps of impacted AWS resources where available. Examination: Examine the data collected by extracting and assessing the relevant information. Analy"
               }
             },
             {
@@ -3847,7 +3847,7 @@
                 "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/cost_decomissioning_resources_data_retention.html"
               },
               "improvementPlan": {
-                "displayText": ""
+                "displayText": "Use data retention policies and lifecycle policies to reduce the associated costs of the decommissioning process and storage costs for the identified resources. Defining your data retention policies and lifecycle policies to perform automated storage class migration and deletion will reduce the overall storage costs during its lifetime. You can use Amazon Data Lifecycle Manager to automate the creation and deletion of Amazon Elastic Block Store snapshots and Amazon EBS backed Amazon Machine Images (AMIs), and use Amazon S3 Intelligent Tiering or an Amazon S3 lifecycle configuration to manage the lifecycle of your Amazon S3 objects. You can also implement custom code using the API or SDK to"
               }
             },
             {

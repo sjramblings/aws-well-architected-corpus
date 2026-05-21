@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:87d4532c1033be622fd17170e18f1ec20b7f31154941ea1e2a9479987288f1bd'
+content_hash: 'sha256:d40358a5d6525fcd554db197d5fafd5e4e8f0b38e2ca5bbab4a1b4cb709c5dd7'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC11-BP06 — Deploy software programmatically
 

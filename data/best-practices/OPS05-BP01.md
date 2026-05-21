@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:840eb3a4bd512320e9a0b71d90afe1e3d300e70ba8c5dbc6eb4c0b3481ca4d99'
+content_hash: 'sha256:8219c5a62e651aa23194a26065fcd0ab99a4e192c8e1c15fc59be17a0dc71576'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS05-BP01 — Use version control
 

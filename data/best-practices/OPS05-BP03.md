@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:2689c755e72df54090520c825ce565fd8791dd566f7ebb7cc1d3a1612ac0da5f'
+content_hash: 'sha256:d5eddd33d9f3a373f9a7b439f8208cb9f4513c136c7e8480c4103286369f2832'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS05-BP03 — Use configuration management systems
 

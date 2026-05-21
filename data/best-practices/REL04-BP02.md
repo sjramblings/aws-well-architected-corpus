@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:81c2932833ec6faeb8207f77d85a4f629aab412826c3bc38248a02e3d6d586dd'
+content_hash: 'sha256:6c885c3332b6aad48889bc8beae25ca55f563957a2d7eb0614a3c61ed7c5e91d'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL04-BP02 — Implement loosely coupled dependencies
 

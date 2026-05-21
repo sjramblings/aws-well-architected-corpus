@@ -1,7 +1,12 @@
+import { mkdir } from "node:fs/promises";
+import path from "node:path";
+
 import { pillarForPrefix, type TocBpNode } from "./types.ts";
 
 const TOC_URL =
   "https://docs.aws.amazon.com/wellarchitected/latest/framework/toc-contents.json";
+const CACHE_DIR = ".cache";
+const TOC_CACHE_PATH = path.join(CACHE_DIR, "toc-contents.json");
 const MAX_FETCH_ATTEMPTS = 3;
 const FETCH_TIMEOUT_MS = 30_000;
 const BP_TITLE_RE = /^([A-Z]{2,4}\d{2}-BP\d{2})\s+(.+)$/;
@@ -131,8 +136,30 @@ function walkToc(entry: TocEntry, parentTitle: string | undefined, nodes: TocBpN
   }
 }
 
-export async function fetchTocBpNodes(): Promise<TocBpNode[]> {
-  const toc = validateTocRoot(await fetchJsonWithRetry(TOC_URL));
+async function loadTocJson(offline: boolean): Promise<unknown> {
+  if (offline) {
+    // Offline replay reads the snapshot only — it never touches the network,
+    // so the Verify.ts idempotency gate cannot fail on a transient TOC fetch
+    // error or a TOC change landing between the scrape step and the check.
+    const cached = Bun.file(TOC_CACHE_PATH);
+    if (!(await cached.exists())) {
+      throw new Error(
+        `missing TOC cache file ${TOC_CACHE_PATH} — run an online scrape first`,
+      );
+    }
+    return JSON.parse(await cached.text());
+  }
+
+  // Online: fetch the live TOC and snapshot it next to the cached page HTML so
+  // a subsequent --offline run replays from a consistent, deterministic state.
+  const raw = await fetchJsonWithRetry(TOC_URL);
+  await mkdir(CACHE_DIR, { recursive: true });
+  await Bun.write(TOC_CACHE_PATH, JSON.stringify(raw));
+  return raw;
+}
+
+export async function fetchTocBpNodes(offline = false): Promise<TocBpNode[]> {
+  const toc = validateTocRoot(await loadTocJson(offline));
   const nodes: TocBpNode[] = [];
   for (const entry of toc.contents) {
     walkToc(entry, undefined, nodes);

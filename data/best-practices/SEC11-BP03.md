@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:fd316927919ee24ccfbdb92289a3bcb0a2ebfbc922bf8cb24b30d0dcb2ec62d9'
+content_hash: 'sha256:0519940c39e007a9c6736beb59aab26bde1f9198e9c58ee6fce9009b0555d0f1'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC11-BP03 — Perform regular penetration testing
 

@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:deed682c657491603f72695aac874f7b5a595dfe076463728d1186343e38cbf7'
+content_hash: 'sha256:ea11866ecd0fe4cb48938476650b3c860ef70863db1029f9a6c667606de3d0c3'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS06-BP05 — Use managed device farms for testing
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:27f9f79a11451bb9c46009f867def15999bb807e3905374a2424dd3b69ee8e88'
+content_hash: 'sha256:faa2839f93913dbbae26100683c236dc6b83ce35c5db1678f3c7b70b608c756c'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC06-BP03 — Reduce manual management and interactive access
 

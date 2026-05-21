@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:bd307452bf2a9d6354d7e8ec6002ff8ea4ccb0adda06cacb626993c8a3bfc2d9'
+content_hash: 'sha256:b9f37ea14df5ed68681c946b00a7dae76c78d72b4c51f98bcbb62774cb80b138'
+extraction_warnings:
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # SEC01-BP03 — Identify and validate control objectives
 

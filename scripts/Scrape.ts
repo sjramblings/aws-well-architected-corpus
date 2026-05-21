@@ -3,20 +3,31 @@ import { createHash } from "node:crypto";
 import { mkdir, readdir, rm } from "node:fs/promises";
 import path from "node:path";
 import { extractBestPractice } from "./lib/extract.ts";
+import { classifyDeviations, loadBaseline, serializeBaseline } from "./lib/baseline.ts";
 import { fetchTocBpNodes } from "./lib/toc.ts";
-import { PILLARS, type BestPractice, type Meta, type TocBpNode } from "./lib/types.ts";
+import {
+  BP_COUNT_LOWER_GUARD,
+  PILLARS,
+  SECTION_KEYS,
+  type BestPractice,
+  type Deviation,
+  type Meta,
+  type TocBpNode,
+} from "./lib/types.ts";
 
 const FRAMEWORK_SOURCE = "https://docs.aws.amazon.com/wellarchitected/latest/framework/";
 const CACHE_DIR = ".cache";
 const BP_DIR = "data/best-practices";
 const PILLAR_DIR = "data/pillars";
 const META_PATH = "data/_meta.json";
+const BASELINE_PATH = "data/_structure-baseline.json";
 const AWS_SOURCE = "Amazon Web Services — docs.aws.amazon.com";
 const AWS_LICENCE = "© Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.";
 
 type Flags = {
   offline: boolean;
   concurrency: number;
+  blessBaseline: boolean;
 };
 
 type PageResult = {
@@ -40,10 +51,13 @@ type WriteStats = {
 function parseFlags(argv: string[]): Flags {
   let offline = false;
   let concurrency = 8;
+  let blessBaseline = false;
 
   for (const arg of argv) {
     if (arg === "--offline") {
       offline = true;
+    } else if (arg === "--bless-baseline") {
+      blessBaseline = true;
     } else if (arg.startsWith("--concurrency=")) {
       const raw = arg.slice("--concurrency=".length);
       const parsed = Number.parseInt(raw, 10);
@@ -56,7 +70,7 @@ function parseFlags(argv: string[]): Flags {
     }
   }
 
-  return { offline, concurrency };
+  return { offline, concurrency, blessBaseline };
 }
 
 function sleep(ms: number): Promise<void> {
@@ -65,6 +79,14 @@ function sleep(ms: number): Promise<void> {
 
 function sha256Hex(text: string): string {
   return createHash("sha256").update(text).digest("hex");
+}
+
+// Emits a GitHub Actions workflow annotation only when running inside CI.
+// Outside GitHub Actions it is a no-op so local runs stay quiet.
+export function ghAnnotate(level: "warning" | "error", message: string): void {
+  if (process.env.GITHUB_ACTIONS === "true") {
+    console.log(`::${level}::${message}`);
+  }
 }
 
 function contentHash(bp: BestPractice): string {
@@ -82,8 +104,14 @@ function contentHash(bp: BestPractice): string {
     bp.benefits,
     bp.implementationGuidance,
     bp.resources,
+    structureFingerprint(bp),
   ].join(" ");
   return `sha256:${sha256Hex(canonical)}`;
+}
+
+function structureFingerprint(bp: BestPractice): string {
+  const sectionBits = SECTION_KEYS.map((section) => (bp.sectionPresence[section] ? "1" : "0")).join(",");
+  return `${sectionBits}|risk:${bp.riskLevel !== "UNKNOWN" ? "1" : "0"}`;
 }
 
 function sourceUrl(node: TocBpNode): string {
@@ -243,6 +271,8 @@ async function writeBestPractices(bestPractices: BestPractice[], hashes: Map<str
       source: AWS_SOURCE,
       licence: AWS_LICENCE,
       content_hash: hash,
+      extraction_warnings: bp.warnings,
+      sections_present: bp.sectionPresence,
     };
     const markdown = matter.stringify(bodyForBestPractice(bp), frontmatter);
     await Bun.write(filePath, markdown.endsWith("\n") ? markdown : `${markdown}\n`);
@@ -264,6 +294,84 @@ async function writeBestPractices(bestPractices: BestPractice[], hashes: Map<str
   }
 
   return { written, skipped, deleted };
+}
+
+function isErrorDeviation(deviation: Deviation): boolean {
+  return deviation.kind === "REGRESSION" || deviation.kind === "REMOVED_BP";
+}
+
+function deviationMessage(deviation: Deviation): string {
+  return deviation.section === undefined
+    ? `${deviation.kind} ${deviation.bpId}`
+    : `${deviation.kind} ${deviation.bpId} ${deviation.section}`;
+}
+
+function printStructureDrift(deviations: Deviation[]): void {
+  if (deviations.length === 0) {
+    console.log("Structure drift: 0 deviations");
+    return;
+  }
+
+  const errorCount = deviations.filter(isErrorDeviation).length;
+  const warningCount = deviations.length - errorCount;
+  console.log(`Structure drift: ${deviations.length} deviations (${errorCount} errors, ${warningCount} warnings)`);
+  for (const deviation of deviations) {
+    console.log(`  - ${deviationMessage(deviation)}`);
+  }
+}
+
+async function blessStructureBaseline(bestPractices: BestPractice[]): Promise<void> {
+  if (process.env.CI) {
+    console.error("--bless-baseline refuses to run under CI (process.env.CI is set); blessing is a human-only action");
+    process.exit(1);
+  }
+
+  const oldBaseline = await loadBaseline(BASELINE_PATH);
+  await mkdir(path.dirname(BASELINE_PATH), { recursive: true });
+  await Bun.write(BASELINE_PATH, serializeBaseline(bestPractices));
+  console.log(`Structure baseline written: ${BASELINE_PATH}`);
+  if (oldBaseline !== undefined) {
+    printStructureDrift(classifyDeviations(bestPractices, oldBaseline));
+  } else {
+    console.log("Previous structure baseline: none");
+  }
+  process.exit(0);
+}
+
+async function enforceStructureBaseline(bestPractices: BestPractice[]): Promise<void> {
+  const baseline = await loadBaseline(BASELINE_PATH);
+  if (baseline === undefined) {
+    console.log(`Notice: no structure baseline at ${BASELINE_PATH} — skipping drift gate. Run with --bless-baseline to create one.`);
+    return;
+  }
+
+  const deviations = classifyDeviations(bestPractices, baseline);
+  for (const deviation of deviations) {
+    ghAnnotate(isErrorDeviation(deviation) ? "error" : "warning", deviationMessage(deviation));
+  }
+  printStructureDrift(deviations);
+  if (deviations.some(isErrorDeviation)) {
+    process.exit(1);
+  }
+}
+
+function enforceNearEmptyPageGuard(bestPractices: BestPractice[]): void {
+  const nearEmpty = bestPractices.filter(
+    (bp) =>
+      bp.statement.trim().length === 0 &&
+      bp.implementationGuidance.trim().length === 0 &&
+      bp.resources.trim().length === 0,
+  );
+  if (nearEmpty.length === 0) {
+    return;
+  }
+
+  for (const bp of nearEmpty) {
+    const message = `Near-empty best-practice page ${bp.id}: Statement, Implementation Guidance, and Resources are empty.`;
+    ghAnnotate("error", message);
+    console.error(message);
+  }
+  process.exit(1);
 }
 
 async function safeReadDir(dir: string): Promise<string[]> {
@@ -405,10 +513,10 @@ function printSummary(bestPractices: BestPractice[], stats: WriteStats): void {
 
 async function main(): Promise<void> {
   const flags = parseFlags(Bun.argv.slice(2));
-  const nodes = await fetchTocBpNodes();
+  const nodes = await fetchTocBpNodes(flags.offline);
 
-  if (nodes.length < 280) {
-    console.error(`Layout break guard failed: TOC returned ${nodes.length} best practices, expected at least 280.`);
+  if (nodes.length < BP_COUNT_LOWER_GUARD) {
+    console.error(`Layout break guard failed: TOC returned ${nodes.length} best practices, expected at least ${BP_COUNT_LOWER_GUARD}.`);
     process.exit(1);
   }
 
@@ -431,10 +539,17 @@ async function main(): Promise<void> {
   );
   bestPractices.sort((a, b) => a.id.localeCompare(b.id));
 
-  if (bestPractices.length < 280) {
-    console.error(`Layout break guard failed: extracted ${bestPractices.length} best practices, expected at least 280.`);
+  if (bestPractices.length < BP_COUNT_LOWER_GUARD) {
+    console.error(`Layout break guard failed: extracted ${bestPractices.length} best practices, expected at least ${BP_COUNT_LOWER_GUARD}.`);
     process.exit(1);
   }
+
+  enforceNearEmptyPageGuard(bestPractices);
+
+  if (flags.blessBaseline) {
+    await blessStructureBaseline(bestPractices);
+  }
+  await enforceStructureBaseline(bestPractices);
 
   const hashes = new Map<string, string>();
   for (const bp of bestPractices) {

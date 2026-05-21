@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:832ce630a4eefdbc888a680ed49ec22357dce864ecff7a1525357b26c2e41d51'
+content_hash: 'sha256:7c5493ea7ba4d9cf9f761916064d3b064aa7c64badbf6baa900b1a26f80da853'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC09-BP03 — Authenticate network communications
 

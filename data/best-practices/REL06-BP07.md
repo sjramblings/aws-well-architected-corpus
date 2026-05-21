@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:0ba92f0eb54eaad9cab5981b870ecae245293cca2b26fbdbd29c7f0a6724c0c0'
+content_hash: 'sha256:b0c8b13a5e6c54479e0cd4aea3561a24b3d2db25e86f5f2eaf8b81fe87c6cc25'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL06-BP07 — Monitor end-to-end tracing of requests through your system
 

@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:4e97e0a505f6e064913e56c88a3f5eecfdee744216aeafca980f20ab3857a077'
+content_hash: 'sha256:aaab1b34fed02e749e394c1af9ecec5506c4be3365e2eb5d5b5e8f2c58084455'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF04-BP03 — Choose appropriate dedicated connectivity or VPN for your workload
 

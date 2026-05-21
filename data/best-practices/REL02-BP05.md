@@ -11,7 +11,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:bb222964e4c41e3579a7e3b67702e5a3e6e64aef153bb31c2b182e5c21830810'
+content_hash: 'sha256:3fde4d4f4ccc33ad2ee7ee8a21a488023526f2e017d8152a73f02aea91990c06'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL02-BP05 — Enforce non-overlapping private IP address ranges in all private address spaces where they are connected
 

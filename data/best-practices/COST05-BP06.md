@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:ab8beab0866f7413542ab121bdcd93825b3e3b4e22ed75686810196f9fcffdcb'
+content_hash: 'sha256:10abff3c114bfe4357897d48f5ed921bff01ac2fbac4fca74c0bce1d419e4089'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST05-BP06 — Perform cost analysis for different usage over time
 

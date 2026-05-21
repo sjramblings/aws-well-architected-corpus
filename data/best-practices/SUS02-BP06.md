@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:a7bfabff0fc50069d9d74863d86ff8acc42f7cc48a65ef80348f483475e998bc'
+content_hash: 'sha256:34c611d2c74264e5a7a65d0a0e556a5dc3558c10979b9813412fa496e5f8fa07'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS02-BP06 — Implement buffering or throttling to flatten the demand curve
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:0f34bc8a5acf1298b3ce64ee7cc6b89f66d3af6358ce5645e74cb810033df9c9'
+content_hash: 'sha256:322146ba7560bb6ed2f406bd31e8bbc1dc8b7aa439a3551fcb7ecff96ab0f517'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS03-BP01 — Provide executive sponsorship
 

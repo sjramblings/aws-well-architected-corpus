@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:efe3aa819d1bb58d9bbd2c807998a02a47f1332aea879c2e4831b4af7d78f8fa'
+content_hash: 'sha256:b9204013d4cf9d770f6008d2cc4ed3857a0df8a8f68f984a5183a175f11f8d69'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS05-BP05 — Perform patch management
 

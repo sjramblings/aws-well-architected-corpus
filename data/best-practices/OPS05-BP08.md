@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:3d7bfcdd62922376b3d8d8a4a39748ccb8caaac812ed2fbb0a249067fe764953'
+content_hash: 'sha256:24343a0b80e5133f7a6a482bd337bab6b3bcf311b8177268b152439fceba1eb8'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS05-BP08 — Use multiple environments
 

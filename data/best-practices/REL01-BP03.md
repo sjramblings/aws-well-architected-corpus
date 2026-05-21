@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:14b32c81a705f8687dbea900b9a826e4b1cd9b0f564b59d94125d3808809d167'
+content_hash: 'sha256:2d7115d9f9edb4b120e2120dc5df2a14c662d49516e1e4d0f718f5a4315e2068'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL01-BP03 — Accommodate fixed service quotas and constraints through architecture
 

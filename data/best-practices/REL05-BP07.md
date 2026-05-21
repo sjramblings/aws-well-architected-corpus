@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:a0c87cc1d46ae734f8ed5c2d91f7eddf165b1d2ba83d713f76db0614d5f180f2'
+content_hash: 'sha256:0a2b0896af32ca3710087b694940f7505fcdb59d22e5b74c4eb5e40a0ce95648'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL05-BP07 — Implement emergency levers
 

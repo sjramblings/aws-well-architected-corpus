@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:c7ed18df1e5dd616536205987971b9ae10f4433aa2043635bf8cd1d3b3a474a3'
+content_hash: 'sha256:0a5120ffc47019d9ba3e08607a5e08d200cab2ad878e56013bae8e174548fd03'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS09-BP03 — Review operations metrics and prioritize improvement
 

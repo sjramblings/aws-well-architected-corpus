@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:fa38b5fb66d3ee251ad609b17f428cf77d18e1eebcea11e5a507a06f4a02cd99'
+content_hash: 'sha256:1b05246f4665be08cc5ff3facfe4e180c197b8fb34b2bf0a661574143724a320'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL12-BP03 — Test scalability and performance requirements
 

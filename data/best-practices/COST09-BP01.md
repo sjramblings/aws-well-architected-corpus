@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:ecfb2abfbace12ca188cc7043c6c56965fe9bf9e9921e5aa34abad8b9a42750f'
+content_hash: 'sha256:066190f1c48f25bb68f703173e7cdb21f083ff544329bbde3df97651b5ffdee7'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST09-BP01 — Perform an analysis on the workload demand
 

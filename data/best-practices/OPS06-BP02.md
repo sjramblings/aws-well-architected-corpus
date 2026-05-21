@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:f94a688008708469b6a05be2b794d14862d54c348cc6be43de581acdc5d41ac0'
+content_hash: 'sha256:a5c6f6c782c11521d6365c9c455c0f5dcb14016fd055917502a9255551668ad0'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS06-BP02 — Test deployments
 

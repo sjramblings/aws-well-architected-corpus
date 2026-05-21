@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:a2d1f8d781c2d1b871bc688561964b2289abf6e1f990d6585bd4a93ba1998794'
+content_hash: 'sha256:9fcad81c76e5aae4ab6bfaf246248f2a5acd0fa543da66d5ddd5c77263f1a3a0'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC07-BP01 — Understand your data classification scheme
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:f1bdbdf977bdac45d875785fa91bd29578128111849bd5df134d58d2feee6df8'
+content_hash: 'sha256:c1f6e46b87f8feb12caffe6d364299bfd0e029c609b8c4c96378474998e728c9'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS05-BP10 — Fully automate integration and deployment
 

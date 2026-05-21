@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:5b8e71fe28c9ec540c8797f321fd73c0c359945f7b47336cb195fd2b80ad2df3'
+content_hash: 'sha256:62f5b100141bf1c15c2b4ebdb84fd399ab58bdb1fe69e42c41e97ba2ca296b25'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC05-BP02 — Control traffic flow within your network layers
 

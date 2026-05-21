@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:d231f7a7a67af3fd0f4af9eec875484cf0f7b3f42be286856a492b105f83da74'
+content_hash: 'sha256:b0ce6d3fcd844cebd8a3c5bb8003f414152e530d1b52cee2de260799a16fb743'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL03-BP02 — Build services focused on specific business domains and functionality
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:1dd597cead45d06ccb00f7edd447ebee154069cf46478dcf2505343d7e44da03'
+content_hash: 'sha256:e909a8cf4b5c365747df86d83104c1d74a780deb434abe2dd46d81d10f5c4a04'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS10-BP02 — Have a process per alert
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:d970ea2b3a85c89131ebf8c5f7d4a7d025617a68165cc3282b771a31e71d2fb5'
+content_hash: 'sha256:dd1fa5da6734358b58fc2b853de55d313f76f7cb05bb15d6813a03a356e1d7fd'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC10-BP01 — Identify key personnel and external resources
 

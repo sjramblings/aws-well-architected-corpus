@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:ca3c4cb14b75e7e41e0bcdf611c546ed1e40a792d2a9eb1c63e211de9dbfa2a5'
+content_hash: 'sha256:fd56103d36d2596b28cd9b666638fdd8583405702dd8fbfca021b1a449a97231'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC11-BP02 — Automate testing throughout the development and release lifecycle
 

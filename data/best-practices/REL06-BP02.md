@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:64c2e766da27fb7bf382ce67b6cb4eac4c18e9b8325b80a52f57e9cafb77a22a'
+content_hash: 'sha256:9738e716bcdc03c15ee5d9d2f8798088deb3ac39652ad9570c122362131e522f'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL06-BP02 — Define and calculate metrics (Aggregation)
 

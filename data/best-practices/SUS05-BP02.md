@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:11dc8bc6e6c3f77ddf18b64210dedcc7de309768e4c43868f4c5ed3db91bb746'
+content_hash: 'sha256:6d4c0f60cb43a2ce118f4281677ff5670d33412da9ad6ea0f97e0107ed46497c'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS05-BP02 — Use instance types with the least impact
 

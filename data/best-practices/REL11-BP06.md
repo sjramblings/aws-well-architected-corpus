@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:7a351ee872f28c89579b5fcb017e0b07f1832d88a41b38bda1cc903f4fa5a02e'
+content_hash: 'sha256:f636390f773aef482347af0f1e6d78c445cb15c22d6a4ba426c4f5a016d1a72b'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL11-BP06 — Send notifications when events impact availability
 

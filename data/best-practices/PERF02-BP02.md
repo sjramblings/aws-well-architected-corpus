@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:b99d891347f4238df6b2b6e2f14b4ecef6795f39b58f3c984553c6d67f363886'
+content_hash: 'sha256:bd5af9bd7135fee49a1f20ccbe1cd433b0cbb134f310bbf47ee74eb740d276c1'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF02-BP02 — Understand the available compute configuration and features
 

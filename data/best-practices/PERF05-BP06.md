@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:58c2ab08fed0f370ddc1ad8fcca582a5b6f4b94de5c299b5ca70488ee8952d8e'
+content_hash: 'sha256:12fe2579bb7a0cafb1fb0c6d47e15ecb6ad7df85cd4588b5c726f66ce1467ddd'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF05-BP06 — Keep your workload and services up-to-date
 

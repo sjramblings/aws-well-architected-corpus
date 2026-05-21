@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:8f99e110c73f48f90d415838771557a976d780e09e64ddfc3f1cb1e19f17df2d'
+content_hash: 'sha256:4e1567dcbb39749bc886948d6806f482a5ad99cd2ac2406684329d69dc37286a'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS05-BP03 — Use managed services
 

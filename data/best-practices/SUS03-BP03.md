@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:d1429eb4ce2f506794a102490b7d5905f1a3a3164ed6ddbe9f87fc334e5ed771'
+content_hash: 'sha256:223e86080010469672e34e13dd83344af17ab6676803d0058d4d5afeb6b694ea'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS03-BP03 — Optimize areas of code that consume the most time or resources
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:fc00873c03478a1a62aa921b11129edbc61c3dd01d3cd147775e6a60d6c0da41'
+content_hash: 'sha256:77ac5b0727b3778f4ee189f6861837364038c1f1068f159882cc91e5765ce057'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS05-BP06 — Share design standards
 

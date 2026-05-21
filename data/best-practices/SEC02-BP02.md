@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:8de576a540202a7dfdabcd9496fa2ae793e6010933a69e4098ce81d6b1ddcacb'
+content_hash: 'sha256:31dd604ee515d5613c1ff80ef7739eaca614515ab6bf92b483eb348574b9ccf2'
+extraction_warnings:
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # SEC02-BP02 — Use temporary credentials
 

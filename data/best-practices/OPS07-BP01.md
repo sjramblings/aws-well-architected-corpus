@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:31401a495a739b761df3761da6213b533e1303e55c1cd18de10e8444b7134264'
+content_hash: 'sha256:d0f88ddfe0f0e0e03af3e465d58d70d4cd235350549a824749991ff7050efd8d'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS07-BP01 — Ensure personnel capability
 

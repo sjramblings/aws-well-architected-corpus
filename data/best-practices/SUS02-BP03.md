@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:1f9ed666627ff7e9c4b0b36443a4cd1f3fdee7b0871f7bab503548c399ab6ea6'
+content_hash: 'sha256:cee793bc7a469e21c0ef664d2bfde8318fc5646295fc8ebc067ad3a5578b5a88'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS02-BP03 — Stop the creation and maintenance of unused assets
 

@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:68669909789b61eda55a5aaf4ca245bf7e74d14d54971a1c83ee49a2643fc0c3'
+content_hash: 'sha256:40cad549f584f601a5b0332d5882eaefae6e2766b2ebdc75b533c37a340a0869'
+extraction_warnings:
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # SEC03-BP07 — Analyze public and cross-account access
 

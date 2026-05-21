@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:887edba370e1d092ffc46ac5fc9741782f5c32121e906cf2807d78378b3fa15f'
+content_hash: 'sha256:744ba3d2e449f999b546122e5608b128dc15e891dbf803a2689bc9246e4dae39'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL03-BP03 — Provide service contracts per API
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:486f026096d821de5c9245b180faf610dfa931b3d13f24db8a17102de5ef5d46'
+content_hash: 'sha256:afa62def596686ebe1644a8db4bf6cc0afaa59f559d850a97a209ec2b53c24c5'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL04-BP01 — Identify the kind of distributed systems you depend on
 

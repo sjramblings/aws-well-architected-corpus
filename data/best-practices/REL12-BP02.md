@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:75a4d3fa00ac71833421a240163f73f5c63b6f603060d436da99cedd630b69a8'
+content_hash: 'sha256:638010f8670aee803ab01d06611f251a150104187ca966730343ff81abd47780'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL12-BP02 — Perform post-incident analysis
 

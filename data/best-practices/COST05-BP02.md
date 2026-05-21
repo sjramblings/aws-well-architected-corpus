@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:f235113929af325f852fc1ad23c5c77708b6949c3e0cc71738d814ef067b7a99'
+content_hash: 'sha256:6cf3016ee8ff26ae7e048aed323d5bf4216ef5c7a7e02342c0e82eaceb89db57'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST05-BP02 — Analyze all components of the workload
 

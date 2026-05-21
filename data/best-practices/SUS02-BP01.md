@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:c88f1694314d004c3e32ea6eb7d0066502ad08a53782903a44d4895e32145cbc'
+content_hash: 'sha256:d8e7cc96922d1e92a0679482437843291b8dedd77cd2ec11912ca673f1b6257d'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS02-BP01 — Scale workload infrastructure dynamically
 

@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:ef8fca6d6bc447c904b7f9aeff4e4643c525eeb3316cb78fc2e4ec7139a59fe4'
+content_hash: 'sha256:d57fb297f9a5c4edd11410bd44f4bc2ae944fdbfa1bdd3ee4dc48b7573ea4033'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST06-BP02 — Select resource type, size, and number based on data
 

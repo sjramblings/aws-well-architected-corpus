@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:f36b8d1c13aba4e9f63f04a48d3fe0ca7e419704a342a161d73de29080a7ce7b'
+content_hash: 'sha256:bc5f8af649228bd62bc77587eac2edc642759c7b094ff804ccbf7979660bb84a'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS04-BP03 — Use policies to manage the lifecycle of your datasets
 

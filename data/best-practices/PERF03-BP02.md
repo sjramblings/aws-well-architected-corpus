@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:2ab83b9f90425d6cdbea1b511dc1e7a703d7b93ecdd714482218be24c21675f0'
+content_hash: 'sha256:aedcee7c566abb4b3281e9dbb97c2d8dd66b549cd8140b39b01c23f3db57bc0b'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF03-BP02 — Evaluate available configuration options for data store
 

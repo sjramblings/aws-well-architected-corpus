@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:d65f1440cd40944dd8c5c8bbbb866e535132ed67e717dd07f72ecdaa936d003c'
+content_hash: 'sha256:3890acd642aa2051811af0780ab41cfdd56ffd7116fc5c358039c0b644193aef'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF01-BP05 — Use policies and reference architectures
 

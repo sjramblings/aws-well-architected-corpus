@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:c34e8e29513c18de0d249db1c8cbfec27e48d74400913d515f1d7f53e0eac249'
+content_hash: 'sha256:446ed49cfd6b12fef78a4450cc34ce19df3ee1f21cd75dc965f2c7ebaf3cb432'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS02-BP06 — Responsibilities between teams are predefined or negotiated
 

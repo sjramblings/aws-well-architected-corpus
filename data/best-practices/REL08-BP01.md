@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:127d47746c958cb1e57a9975161f4e75309fc7ba43e322128a07a5c05871f388'
+content_hash: 'sha256:0fd0bae96e47df99457fc8a4dcbdf078c3edf4f496b86bf87fc83129ba29383e'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL08-BP01 — Use runbooks for standard activities such as deployment
 

@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:45d62799ef49622fee18791a99afb3730e66f6c0a84a8de6522f9506d3a88163'
+content_hash: 'sha256:6c99e1bc4102fe5b9e31fab95601aabeee513b8db95d13dc954a8ac2f0b83ed5'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS02-BP05 — Optimize team member resources for activities performed
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:90542236ac4b68152781adb0c4869e81f190a1631d060ec21f3b95ac98202da0'
+content_hash: 'sha256:f02fbeee3a7d7f210a774d89ba1e0fa68751535be237d2d48e53b4733e3b043b'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC07-BP04 — Define scalable data lifecycle management
 

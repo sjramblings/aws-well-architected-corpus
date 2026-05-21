@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:b3ea06907446e0cb4b37644d6ef96ab785864245ce84413758ecfc3e66a01de4'
+content_hash: 'sha256:ac337c379ecaed2f1bab3c16d01933b4430595bebdb1e2082ec716d0b6bcb67c'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL12-BP01 — Use playbooks to investigate failures
 

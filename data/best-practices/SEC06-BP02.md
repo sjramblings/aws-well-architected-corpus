@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:ebe3f029cd63c138223c0bc0e7f656e43bd63496240c155046d3ae3a09c416c8'
+content_hash: 'sha256:6c84ddc058bebb2cf6f051ba00a6baf5cc02169a042375d46fd23b8658d681cf'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC06-BP02 — Provision compute from hardened images
 

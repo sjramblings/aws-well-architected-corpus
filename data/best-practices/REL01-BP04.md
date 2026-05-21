@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:d7c7c7f86518918e8485ca7a57419bf1f25893f0ad9887c7884076df04ff2770'
+content_hash: 'sha256:99ddf28ede51699540aa6b1108a7a2d4530ee166083e4b8367cc7b1dd1fc2a43'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL01-BP04 — Monitor and manage quotas
 

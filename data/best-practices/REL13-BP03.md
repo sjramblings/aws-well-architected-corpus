@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:75f03a5b799cdb85ad2a84508c12eb67be430683810ff5c5271f4aca1293a6de'
+content_hash: 'sha256:57a40760bdd90064419d45bdc3ffb7aa531d79f43ee8d23a296c5f703fff6831'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL13-BP03 — Test disaster recovery implementation to validate the implementation
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:194041b41ed9f03cde833058e551c0c6cb60357928005d0f21e520662d906dc7'
+content_hash: 'sha256:f6ee3cffae17dcc34da6e42695e5dd37ac711bc18c2a5fb9f656b4b7d9dc2cc4'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL10-BP03 — Use bulkhead architectures to limit scope of impact
 

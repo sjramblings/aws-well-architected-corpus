@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:103c642469f70d04e183a1dd3b66d7e7dbdecc716af0be179332edce3771ce1b'
+content_hash: 'sha256:c96e4676aacd0a58f31c42336df4acc1b19b11d72f0e745aac6297f7c36e8a47'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL10-BP01 — Deploy the workload to multiple locations
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:6c570513b4f59dfc9e9fb8ffe8ee60b16250016075ac1e6d101dcb7d37f00e44'
+content_hash: 'sha256:62cb39a96750df530c47943d2a0fbc6fd41637070bb70e15e13e74335032c9ad'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS04-BP02 — Implement application telemetry
 

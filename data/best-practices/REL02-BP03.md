@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:43110ce877045789a8a6c1b753a504860489e9be0efd0d36c8e8be175d0de62c'
+content_hash: 'sha256:7c65475623a3768519d2ed999a5b31dd4342839220c357c36d6279ab31b49698'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL02-BP03 — Ensure IP subnet allocation accounts for expansion and availability
 

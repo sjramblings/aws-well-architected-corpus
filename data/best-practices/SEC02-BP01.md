@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:fa38462444223ca64314c95bb1b54ff875c9163338aa378f63e6aa7e658e368e'
+content_hash: 'sha256:6ab15e9565ebf2f1b3a185dc46cf7ad3fb2883c0de3b5c9c2cdc61ac713938bb'
+extraction_warnings:
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # SEC02-BP01 — Use strong sign-in mechanisms
 

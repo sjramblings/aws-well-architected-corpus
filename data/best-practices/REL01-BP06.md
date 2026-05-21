@@ -11,7 +11,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:71d0579186c8ef03ba27928cb4d446e57673368652e34b896038bc7a54f974ff'
+content_hash: 'sha256:4585c885962c1db63bdd42a1389f8818090f28b6e9555c930a95a3a22c1cc692'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL01-BP06 — Ensure that a sufficient gap exists between the current quotas and the maximum usage to accommodate failover
 

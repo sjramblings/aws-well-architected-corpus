@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:9f21f1a092826cce222c77b6b1ca1a5d3fb1f8309ecde9e0fc54fb2214eef3bf'
+content_hash: 'sha256:87895982176e37fe8bde438ee09c49ce58d5f2e650bd92ec377a14a05c6cf2de'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL01-BP01 — Aware of service quotas and constraints
 

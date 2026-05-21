@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:31b2f044f54821fed27b618ac1139ac04481dc3cf41c8249fd9ced32c06ea1e7'
+content_hash: 'sha256:20d0d18a89bcd9354b2e52a0075b42fb0f8f09b1540db2e8560527e92b62a6c3'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC05-BP04 — Automate network protection
 

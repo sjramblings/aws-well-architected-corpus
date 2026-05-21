@@ -11,7 +11,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:8fda44fb459b1bf7c12e940ac5d9b190c8fb605a602841fb17b695b91c5e4f62'
+content_hash: 'sha256:ca4e23e87c97aae6a0040380c0a4d993ee46de975c6fb01f00d4e6e6ce47422a'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL11-BP07 — Architect your product to meet availability targets and uptime service level agreements (SLAs)
 

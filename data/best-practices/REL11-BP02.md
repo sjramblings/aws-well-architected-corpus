@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:bb8277f99e01e76c39b238a2f96dbede3372fd5ef054ec007e7c45cef20865d5'
+content_hash: 'sha256:2005aff13b97fca43f92ce11343e3541dc32fcc9d6c3596c2f737992e0523a57'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL11-BP02 — Fail over to healthy resources
 

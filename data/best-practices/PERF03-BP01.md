@@ -11,7 +11,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:785d8108fd08d81848149430809396b4344ea7b463d56f6924decd2480cae7e0'
+content_hash: 'sha256:6ca480dd0729951d30b51f389c7bbb9954912c2ebbdec0e8090ab8cf2e9d1f4a'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF03-BP01 — Use a purpose-built data store that best supports your data access and storage requirements
 

@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:87f4a90c172d9d3c6241f968619462ecd1fcd6db1f8910d234c4cef6ce289a49'
+content_hash: 'sha256:22ea4186b16864fa7552276760070f45b63e8810ad7dcee44313ced60ff76391'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS03-BP04 — Optimize impact on devices and equipment
 

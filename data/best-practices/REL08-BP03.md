@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:958ca5a92e0f4135b5fec062ada706002770cc15cecabedc74798fb1d65589ec'
+content_hash: 'sha256:1b74b7243d2e9199b0445efdf46c64dc8ac5e36e1f0641d4a7cf8a55e3398440'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL08-BP03 — Integrate resiliency testing as part of your deployment
 

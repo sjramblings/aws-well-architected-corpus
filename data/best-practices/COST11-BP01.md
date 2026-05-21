@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:1fa55d15b69a1132f4a8b9f9eea49cc879aae0e4d6c10fbde817755a3cd1d907'
+content_hash: 'sha256:8ebd4fef95e9452ae66ba2a364d46a542380f5f5dc850762d7d289bd1d1dd169'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST11-BP01 — Perform automation for operations
 

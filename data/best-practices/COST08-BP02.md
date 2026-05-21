@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:8ea9da41f156ef017975b5beac23e299e62aba96e740ed5cbfe180542d0be04f'
+content_hash: 'sha256:f20d76f61d3e946832a180ae0602bfcc486f971f057af586246f2e00dc0bc44a'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST08-BP02 — Select components to optimize data transfer cost
 

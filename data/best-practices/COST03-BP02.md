@@ -9,7 +9,18 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:80f74aff80b3c5ed5559e9fa2321c79acd936eae1fab9c267b17e526f2fac01b'
+content_hash: 'sha256:a1db2f8a86dba3dba7c5ace95bf5abb83a64bb506c8c183d8bf4f9785a5b0ce9'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+  - 'Missing inline marker: Common anti-patterns'
+  - 'Missing inline marker: Benefits'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: false
+  benefits: false
+  implementationGuidance: true
+  resources: true
 ---
 # COST03-BP02 — Add organization information to cost and usage
 

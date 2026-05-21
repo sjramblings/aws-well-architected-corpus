@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:9727c7085998af641302b7056d22b64cddf3d463f8f960036699252718f2e61b'
+content_hash: 'sha256:1b5191aefe9f673f8e8651d0bb1b5258ad04552ccc20083da053e81ca9d6d25f'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS02-BP02 — Processes and procedures have identified owners
 

@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:fa944fc77978b2e64dfbad18c6c94468627f44565483d25fd19479ea094107e2'
+content_hash: 'sha256:bbc1a069798ee4302fd5879f93e504f4f12a13a842ec2e0b664a02c2c11881c6'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # OPS04-BP01 — Identify key performance indicators
 

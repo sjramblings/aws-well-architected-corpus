@@ -11,7 +11,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:b00b0fc7eac9a7348ba205e4412de2855893232008e96263ad4d9bb1c47464b8'
+content_hash: 'sha256:e295aa89d6611067d73d4001976e64ce6cf66999b111865896957de2d077fdb5'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF01-BP02 — Use guidance from your cloud provider or an appropriate partner to learn about architecture patterns and best practices
 

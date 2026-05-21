@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:08c211385f6a999c14c17502f97610acb0f4a70c4f4aa13d403ea2cad177b16f'
+content_hash: 'sha256:4a45cd1e402b2e53e562db6bd1c7e5027fea8ec5cd3ee4beec2faa6daed96f15'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS06-BP04 — Increase utilization of build environments
 

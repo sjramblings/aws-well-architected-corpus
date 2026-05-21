@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:50874fa9122e9c7b925a8ef3f43a333d810576cc9673faa440a9b3265a3e60ce'
+content_hash: 'sha256:c2e261bbd66ce37276a81e45077993edfaf829bb89b63fa48861165cf8455576'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SEC11-BP08 — Build a program that embeds security ownership in workload teams
 

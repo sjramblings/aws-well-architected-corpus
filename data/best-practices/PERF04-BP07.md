@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:7a6b6353bd24c27f0a9e3fe8b2b9db0c8292ef139b39a4915606e3bf2b85e924'
+content_hash: 'sha256:a00bd2237c708e8cfc1218783f0b432829197be2bc29662665670b6ff203a101'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF04-BP07 — Optimize network configuration based on metrics
 

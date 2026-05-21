@@ -9,7 +9,15 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:caf79ab9d651c04206ae51cd2d6f86b99a36ec145b6b0fb3287a577db9582fd2'
+content_hash: 'sha256:c5b74c261c24998b1d74aaa85dfb44d73196b627c7f6eb097773c780cdef6531'
+extraction_warnings: []
+sections_present:
+  statement: true
+  desiredOutcome: true
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # REL13-BP01 — Define recovery objectives for downtime and data loss
 

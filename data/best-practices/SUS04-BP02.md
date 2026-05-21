@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:1052f282320282a23fa4d0687c8262335de135c624b9ca9833facd6d1f41bc35'
+content_hash: 'sha256:bac65e2288aa746cd8e19a35468584eb6e2830d5d93d01cad22c3bb85170961a'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # SUS04-BP02 — Use technologies that support data access and storage patterns
 

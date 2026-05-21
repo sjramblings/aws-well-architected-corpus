@@ -9,7 +9,16 @@ source_url: >-
 scraped_at: '2026-05-20'
 source: Amazon Web Services — docs.aws.amazon.com
 licence: © Amazon Web Services. Reproduced under AWS documentation terms — see NOTICE.
-content_hash: 'sha256:c591fafea0cc03bd463e21eeda759f5618c14bc5190477428b488e885f5c6171'
+content_hash: 'sha256:d51e531a7ba1b349df5ef3a30fc8e69eb8253e49445f7653e280ac52c7ac5961'
+extraction_warnings:
+  - 'Missing inline marker: Desired outcome'
+sections_present:
+  statement: true
+  desiredOutcome: false
+  commonAntiPatterns: true
+  benefits: true
+  implementationGuidance: true
+  resources: true
 ---
 # PERF01-BP07 — Use a data-driven approach for architectural choices
 
